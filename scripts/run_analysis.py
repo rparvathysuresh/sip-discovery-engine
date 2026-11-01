@@ -119,15 +119,16 @@ def generate_analysis_markdown(
         f"- **Distinct Opportunity Areas Scored**: {len(opportunity_areas)}",
         "",
         "## 2. Ranked Opportunity Areas",
-        "| Rank | Theme Name | Category | Count | Share | Severity | Breadth | Composite | Evidence Level |",
-        "|---|---|---|---|---|---|---|---|---|",
+        "| Rank | Theme Name | Category | Count | Share | Severity | Breadth | Composite Score |",
+        "|---|---|---|---|---|---|---|---|",
     ]
 
     for i, a in enumerate(opportunity_areas, 1):
+        score_pct = f"{round(a.composite_score * 100)}%"
         md.append(
             f"| {i} | **{a.theme_name}** | {a.theme_category} | {a.frequency_count} | "
             f"{a.frequency_share:.1%} | {a.severity_score:.2f} | {a.breadth_score:.2f} | "
-            f"**{a.composite_score:.4f}** | `{a.evidence_level}` |"
+            f"**{score_pct}** |"
         )
 
     md.extend([

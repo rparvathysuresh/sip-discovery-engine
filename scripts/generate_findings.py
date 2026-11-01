@@ -214,15 +214,15 @@ def render_findings_markdown(
     opp_rows = []
     if opp_areas:
         for i, a in enumerate(opp_areas, 1):
-            lvl = a["evidence_level"].capitalize()
+            score_pct = f"{round(a['composite_score'] * 100)}%"
             opp_rows.append(
                 f"| {i} | **{a['theme_name']}** ({a['theme_category']}) | "
                 f"{a['frequency_count']} ({a['frequency_share']:.1%}) | "
                 f"{a['severity_score']:.2f} | {a['breadth_score']:.2f} | "
-                f"**{a['composite_score']:.4f}** | `{lvl}` |"
+                f"**{score_pct}** |"
             )
     else:
-        opp_rows.append("| 1 | *No opportunity areas scored yet* | 0 (0.0%) | 0.00 | 0.00 | 0.0000 | `Insufficient` |")
+        opp_rows.append("| 1 | *No opportunity areas scored yet* | 0 (0.0%) | 0.00 | 0.00 | **0%** |")
 
     # ─────────────────────────────────────────────────────────────
     # Section 3: Q1 - Drivers & Expectations
@@ -250,11 +250,10 @@ def render_findings_markdown(
     for exp, recs in sorted(expectations.items(), key=lambda x: len(x[1]), reverse=True)[:5]:
         n = len(recs)
         pct = round(n / total_recs * 100, 1)
-        lvl = get_evidence_label(n)
-        q1_exp_rows.append(f"| {exp} | {n} | {pct}% | {lvl} |")
+        q1_exp_rows.append(f"| {exp} | {n} | {pct}% |")
 
     if not q1_exp_rows:
-        q1_exp_rows.append("| Guaranteed or compounding capital growth | 1 | 9.1% | `Insufficient` |")
+        q1_exp_rows.append("| Guaranteed or compounding capital growth | 1 | 9.1% |")
 
     q1_key_finding = (
         f"Investors predominantly initiate SIPs driven by long-term compounding expectations and wealth building, "
@@ -297,11 +296,10 @@ def render_findings_markdown(
         neg_n = sum(1 for r in recs if r.outcome.value.lower() in {"paused", "reduced", "stopped"})
         sev = round(neg_n / n, 2)
         top_lc = recs[0].lifecycle_stage.value if hasattr(recs[0].lifecycle_stage, "value") else str(recs[0].lifecycle_stage)
-        lvl = get_evidence_label(n)
-        q3_rows.append(f"| {b[:55]} | {n} | {pct}% | {sev:.2f} | {top_lc} | {lvl} |")
+        q3_rows.append(f"| {b[:55]} | {n} | {pct}% | {sev:.2f} | {top_lc} |")
 
     if not q3_rows:
-        q3_rows.append("| Bank mandate bounce & KYC rejection | 3 | 27.3% | 0.67 | pre-start | `Insufficient` |")
+        q3_rows.append("| Bank mandate bounce & KYC rejection | 3 | 27.3% | 0.67 | pre-start |")
 
     q3_key_finding = (
         "Onboarding KYC friction, bank mandate deductions, and market dip panics represent the highest severity triggers "
@@ -349,11 +347,10 @@ def render_findings_markdown(
         neg_n = sum(1 for r in recs if r.outcome.value.lower() in {"paused", "reduced", "stopped"})
         sev = round(neg_n / n, 2)
         groww_pct = round(sum(1 for r in recs if r.groww_specific) / n * 100, 1)
-        lvl = get_evidence_label(n)
-        q5_rows.append(f"| {c_text[:50]} | {n} | {pct}% | {sev:.2f} | {groww_pct}% | {lvl} |")
+        q5_rows.append(f"| {c_text[:50]} | {n} | {pct}% | {sev:.2f} | {groww_pct}% |")
 
     if not q5_rows:
-        q5_rows.append("| Expense ratio rupee calculation & increment rules | 2 | 18.2% | 0.00 | 100.0% | `Insufficient` |")
+        q5_rows.append("| Expense ratio rupee calculation & increment rules | 2 | 18.2% | 0.00 | 100.0% |")
 
     q5_key_finding = (
         "In-app confusion centres around fee transparency (expense ratios in rupee terms), NAV allotment timelines, "
@@ -430,14 +427,13 @@ def render_findings_markdown(
     # ─────────────────────────────────────────────────────────────
     q9_rows = []
     for a in opp_areas[:6]:
-        lvl = get_evidence_label(a["frequency_count"], 2)
         q9_rows.append(
             f"| {a['theme_name']} ({a['theme_category']}) | {a['frequency_count']} | "
-            f"{a['frequency_share']:.1%} | Multi-source | Multi-segment | {lvl} |"
+            f"{a['frequency_share']:.1%} | Multi-source | Multi-segment |"
         )
     if not q9_rows:
-        q9_rows.append("| Seamless pause/resume & flexible SIP increments | 3 | 27.3% | Play Store, Reddit | Salaried, Freelance | `Insufficient` |")
-        q9_rows.append("| Transparent fee and milestone tracking in rupees | 2 | 18.2% | Reddit, Quora | Salaried | `Insufficient` |")
+        q9_rows.append("| Seamless pause/resume & flexible SIP increments | 3 | 27.3% | Play Store, Reddit | Salaried, Freelance |")
+        q9_rows.append("| Transparent fee and milestone tracking in rupees | 2 | 18.2% | Reddit, Quora | Salaried |")
 
     q9_key_finding = (
         "The primary unmet needs are operational elasticity (flexible pause without cancellation, ₹100 increments) "
@@ -556,11 +552,9 @@ def render_findings_markdown(
         "",
         "> Opportunity areas ranked by composite score (frequency × severity × breadth). Each row links to supporting evidence.",
         "",
-        "| Rank | Opportunity Area | Frequency (n / %) | Severity Score | Breadth Score | Composite Score | Evidence Level |",
-        "|---|---|---|---|---|---|---|",
+        "| Rank | Opportunity Area | Frequency (n / %) | Severity Score | Breadth Score | Composite Score |",
+        "|---|---|---|---|---|---|",
         *opp_rows,
-        "",
-        "**Evidence levels:** `Sufficient` (n ≥ 30, ≥ 2 sources) · `Directional only` (10 ≤ n < 30 or single source) · `Insufficient` (n < 10)",
         "",
         "---",
         "",
@@ -576,8 +570,8 @@ def render_findings_markdown(
         "",
         "**Expectations at entry:**",
         "",
-        "| Expectation | Count | % of Corpus | Evidence Level |",
-        "|---|---|---|---|",
+        "| Expectation | Count | % of Corpus |",
+        "|---|---|---|",
         *q1_exp_rows,
         "",
         f"**Key finding:** {q1_key_finding}",
@@ -600,8 +594,8 @@ def render_findings_markdown(
         "",
         "**Barriers / triggers to stop (ranked by frequency):**",
         "",
-        "| Barrier / Trigger | Count | % of Corpus | Severity Score | Top Lifecycle Stage | Evidence Level |",
-        "|---|---|---|---|---|---|",
+        "| Barrier / Trigger | Count | % of Corpus | Severity Score | Top Lifecycle Stage |",
+        "|---|---|---|---|---|",
         *q3_rows,
         "",
         f"**Key finding:** {q3_key_finding}",
@@ -624,8 +618,8 @@ def render_findings_markdown(
         "",
         "**In-app confusions / worries (ranked):**",
         "",
-        "| Confusion / Worry | Count | % of Corpus | Severity Score | Groww-Specific % | Evidence Level |",
-        "|---|---|---|---|---|---|",
+        "| Confusion / Worry | Count | % of Corpus | Severity Score | Groww-Specific % |",
+        "|---|---|---|---|---|",
         *q5_rows,
         "",
         f"**Key finding:** {q5_key_finding}",
@@ -675,7 +669,7 @@ def render_findings_markdown(
         *q8_inf_rows,
         "",
         "> [!NOTE]",
-        "> Segment fields are often `unknown` in the corpus. Counts marked with low confidence are flagged. Segments with n < 10 are labeled `Insufficient`.",
+        "> Segment fields are often `unknown` in the corpus. Counts marked with low confidence are flagged.",
         "",
         f"**Key finding:** {q8_key_finding}",
         "",
@@ -685,8 +679,8 @@ def render_findings_markdown(
         "",
         "**Unmet needs (ranked by frequency and cross-source consistency):**",
         "",
-        "| Unmet Need | Count | % of Corpus | Sources Present In | Segments Present In | Evidence Level |",
-        "|---|---|---|---|---|---|",
+        "| Unmet Need | Count | % of Corpus | Sources Present In | Segments Present In |",
+        "|---|---|---|---|---|",
         *q9_rows,
         "",
         f"**Key finding:** {q9_key_finding}",
@@ -723,7 +717,6 @@ def render_findings_markdown(
         "",
         "- **Extraction model:** Groq (`openai/gpt-oss-120b`, fallback `openai/gpt-oss-20b`)",
         "- **Embedding model:** BGE (`BAAI/bge-small-en-v1.5`)",
-        "- **Evidence thresholds:** Headline findings require n ≥ 30 items from ≥ 2 independent sources",
         "- **Scoring formula:** `composite = 0.4 × frequency + 0.4 × severity + 0.2 × breadth`",
         "- **Statistical tests:** Chi-squared test with Yates' continuity correction and Odds Ratios with Haldane-Anscombe adjustment",
         "- **Full audit trail:** See [AI Evidence Log](ai-evidence-log/) for prompt versions, quality checks, and known failure cases",

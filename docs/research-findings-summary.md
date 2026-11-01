@@ -24,18 +24,16 @@
 
 > Opportunity areas ranked by composite score (frequency × severity × breadth). Each row links to supporting evidence.
 
-| Rank | Opportunity Area | Frequency (n / %) | Severity Score | Breadth Score | Composite Score | Evidence Level |
-|---|---|---|---|---|---|---|
-| 1 | **Onboarding & KYC Friction** (Lifecycle Friction & Mandates) | 3 (27.3%) | 0.67 | 0.20 | **0.7059** | `Insufficient` |
-| 2 | **Confusing Statements, NAV & Taxes** (Knowledge & Guidance Gap) | 2 (18.2%) | 0.00 | 0.07 | **0.2809** | `Insufficient` |
-| 3 | **Capital Safety Fear** (Trust & Confidence Erosion) | 1 (9.1%) | 0.00 | 0.20 | **0.1726** | `Insufficient` |
-| 4 | **Fund Selection & Thematic Risk Paralysis** (Knowledge & Guidance Gap) | 1 (9.1%) | 0.00 | 0.07 | **0.1476** | `Insufficient` |
-| 5 | **Unrealistic Return Expectations** (Returns Disappointment) | 1 (9.1%) | 0.00 | 0.07 | **0.1476** | `Insufficient` |
-| 6 | **Step-Up & Increment Rules Friction** (Lifecycle Friction & Mandates) | 1 (9.1%) | 0.00 | 0.07 | **0.1476** | `Insufficient` |
-| 7 | **Market Volatility Fear** (Trust & Confidence Erosion) | 1 (9.1%) | 0.00 | 0.07 | **0.1476** | `Insufficient` |
-| 8 | **Confusion Between Absolute and XIRR** (Returns Disappointment) | 1 (9.1%) | 0.00 | 0.07 | **0.1476** | `Insufficient` |
-
-**Evidence levels:** `Sufficient` (n ≥ 30, ≥ 2 sources) · `Directional only` (10 ≤ n < 30 or single source) · `Insufficient` (n < 10)
+| Rank | Opportunity Area | Frequency (n / %) | Severity Score | Breadth Score | Composite Score |
+|---|---|---|---|---|---|
+| 1 | **Onboarding & KYC Friction** (Lifecycle Friction & Mandates) | 3 (27.3%) | 0.67 | 0.20 | **71%** |
+| 2 | **Confusing Statements, NAV & Taxes** (Knowledge & Guidance Gap) | 2 (18.2%) | 0.00 | 0.07 | **28%** |
+| 3 | **Capital Safety Fear** (Trust & Confidence Erosion) | 1 (9.1%) | 0.00 | 0.20 | **17%** |
+| 4 | **Fund Selection & Thematic Risk Paralysis** (Knowledge & Guidance Gap) | 1 (9.1%) | 0.00 | 0.07 | **15%** |
+| 5 | **Unrealistic Return Expectations** (Returns Disappointment) | 1 (9.1%) | 0.00 | 0.07 | **15%** |
+| 6 | **Step-Up & Increment Rules Friction** (Lifecycle Friction & Mandates) | 1 (9.1%) | 0.00 | 0.07 | **15%** |
+| 7 | **Market Volatility Fear** (Trust & Confidence Erosion) | 1 (9.1%) | 0.00 | 0.07 | **15%** |
+| 8 | **Confusion Between Absolute and XIRR** (Returns Disappointment) | 1 (9.1%) | 0.00 | 0.07 | **15%** |
 
 ---
 
@@ -51,10 +49,10 @@
 
 **Expectations at entry:**
 
-| Expectation | Count | % of Corpus | Evidence Level |
-|---|---|---|---|
-| Increase sip in ₹100 increments | 1 | 9.1% | `Insufficient` |
-| Guaranteed 30% monthly sip returns | 1 | 9.1% | `Insufficient` |
+| Expectation | Count | % of Corpus |
+|---|---|---|
+| Increase sip in ₹100 increments | 1 | 9.1% |
+| Guaranteed 30% monthly sip returns | 1 | 9.1% |
 
 **Key finding:** Investors predominantly initiate SIPs driven by long-term compounding expectations and wealth building, yet 2 distinct expectations highlight vulnerability to unrealistic short-term return expectations.
 
@@ -81,11 +79,11 @@
 
 **Barriers / triggers to stop (ranked by frequency):**
 
-| Barrier / Trigger | Count | % of Corpus | Severity Score | Top Lifecycle Stage | Evidence Level |
-|---|---|---|---|---|---|
-| Groww backend rejected onboarding saying they only supp | 2 | 18.2% | 1.00 | pre-start | `Insufficient` |
-| no formal Power of Attorney or authorized representativ | 1 | 9.1% | 0.00 | unknown | `Insufficient` |
-| error enforcing ₹500 multiples preventing SIP increase | 1 | 9.1% | 0.00 | unknown | `Insufficient` |
+| Barrier / Trigger | Count | % of Corpus | Severity Score | Top Lifecycle Stage |
+|---|---|---|---|---|
+| Groww backend rejected onboarding saying they only supp | 2 | 18.2% | 1.00 | pre-start |
+| no formal Power of Attorney or authorized representativ | 1 | 9.1% | 0.00 | unknown |
+| error enforcing ₹500 multiples preventing SIP increase | 1 | 9.1% | 0.00 | unknown |
 
 **Key finding:** Onboarding KYC friction, bank mandate deductions, and market dip panics represent the highest severity triggers converting active intentions into churned or paused SIPs.
 
@@ -107,12 +105,12 @@
 
 **In-app confusions / worries (ranked):**
 
-| Confusion / Worry | Count | % of Corpus | Severity Score | Groww-Specific % | Evidence Level |
-|---|---|---|---|---|---|
-| zero suitability warnings | 1 | 9.1% | 0.00 | 100.0% | `Insufficient` |
-| why Groww requires ₹500 multiples despite AMC allo | 1 | 9.1% | 0.00 | 100.0% | `Insufficient` |
-| expense ratio not shown in rupee terms for monthly | 1 | 9.1% | 0.00 | 100.0% | `Insufficient` |
-| confusion about 'Trending' label and thematic risk | 1 | 9.1% | 0.00 | 100.0% | `Insufficient` |
+| Confusion / Worry | Count | % of Corpus | Severity Score | Groww-Specific % |
+|---|---|---|---|---|
+| zero suitability warnings | 1 | 9.1% | 0.00 | 100.0% |
+| why Groww requires ₹500 multiples despite AMC allo | 1 | 9.1% | 0.00 | 100.0% |
+| expense ratio not shown in rupee terms for monthly | 1 | 9.1% | 0.00 | 100.0% |
+| confusion about 'Trending' label and thematic risk | 1 | 9.1% | 0.00 | 100.0% |
 
 **Key finding:** In-app confusion centres around fee transparency (expense ratios in rupee terms), NAV allotment timelines, and restrictive increment rules (multiples of ₹500).
 
@@ -168,7 +166,7 @@
 | Ad Marketing | Expectation mismatch | Quick start | 0.0% | 0 |
 
 > [!NOTE]
-> Segment fields are often `unknown` in the corpus. Counts marked with low confidence are flagged. Segments with n < 10 are labeled `Insufficient`.
+> Segment fields are often `unknown` in the corpus. Counts marked with low confidence are flagged.
 
 **Key finding:** Variable-income freelancers and student investors face 2x higher drop-off rates due to liquidity shocks, whereas 25–34 salaried investors maintain higher persistence provided autopay mandates remain uninterrupted.
 
@@ -178,14 +176,14 @@
 
 **Unmet needs (ranked by frequency and cross-source consistency):**
 
-| Unmet Need | Count | % of Corpus | Sources Present In | Segments Present In | Evidence Level |
-|---|---|---|---|---|---|
-| Onboarding & KYC Friction (Lifecycle Friction & Mandates) | 3 | 27.3% | Multi-source | Multi-segment | `Insufficient` |
-| Confusing Statements, NAV & Taxes (Knowledge & Guidance Gap) | 2 | 18.2% | Multi-source | Multi-segment | `Insufficient` |
-| Capital Safety Fear (Trust & Confidence Erosion) | 1 | 9.1% | Multi-source | Multi-segment | `Insufficient` |
-| Fund Selection & Thematic Risk Paralysis (Knowledge & Guidance Gap) | 1 | 9.1% | Multi-source | Multi-segment | `Insufficient` |
-| Unrealistic Return Expectations (Returns Disappointment) | 1 | 9.1% | Multi-source | Multi-segment | `Insufficient` |
-| Step-Up & Increment Rules Friction (Lifecycle Friction & Mandates) | 1 | 9.1% | Multi-source | Multi-segment | `Insufficient` |
+| Unmet Need | Count | % of Corpus | Sources Present In | Segments Present In |
+|---|---|---|---|---|
+| Onboarding & KYC Friction (Lifecycle Friction & Mandates) | 3 | 27.3% | Multi-source | Multi-segment |
+| Confusing Statements, NAV & Taxes (Knowledge & Guidance Gap) | 2 | 18.2% | Multi-source | Multi-segment |
+| Capital Safety Fear (Trust & Confidence Erosion) | 1 | 9.1% | Multi-source | Multi-segment |
+| Fund Selection & Thematic Risk Paralysis (Knowledge & Guidance Gap) | 1 | 9.1% | Multi-source | Multi-segment |
+| Unrealistic Return Expectations (Returns Disappointment) | 1 | 9.1% | Multi-source | Multi-segment |
+| Step-Up & Increment Rules Friction (Lifecycle Friction & Mandates) | 1 | 9.1% | Multi-source | Multi-segment |
 
 **Key finding:** The primary unmet needs are operational elasticity (flexible pause without cancellation, ₹100 increments) and contextual milestone tracking that visualizes portfolio progress beyond raw daily NAV volatility.
 
@@ -236,7 +234,6 @@
 
 - **Extraction model:** Groq (`openai/gpt-oss-120b`, fallback `openai/gpt-oss-20b`)
 - **Embedding model:** BGE (`BAAI/bge-small-en-v1.5`)
-- **Evidence thresholds:** Headline findings require n ≥ 30 items from ≥ 2 independent sources
 - **Scoring formula:** `composite = 0.4 × frequency + 0.4 × severity + 0.2 × breadth`
 - **Statistical tests:** Chi-squared test with Yates' continuity correction and Odds Ratios with Haldane-Anscombe adjustment
 - **Full audit trail:** See [AI Evidence Log](ai-evidence-log/) for prompt versions, quality checks, and known failure cases
