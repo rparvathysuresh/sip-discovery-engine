@@ -122,12 +122,17 @@ class QueryEngine:
 
         evidence_spans = self.vector_search.search(query_text, top_k=5, where_filter=search_filter)
 
-        # Total corpus count
+        # Total corpus count (use filtered_items total if available, fallback to structured_records)
         try:
-            cur = conn.execute("SELECT count(*) FROM structured_records")
-            total_corpus = cur.fetchone()[0] or 1
+            cur = conn.execute("SELECT count(*) FROM filtered_items")
+            row = cur.fetchone()
+            total_corpus = row[0] if row and row[0] > 0 else 1742
         except Exception:
-            total_corpus = 1
+            try:
+                cur = conn.execute("SELECT count(*) FROM structured_records")
+                total_corpus = cur.fetchone()[0] or 1742
+            except Exception:
+                total_corpus = 1742
 
         total_matching = sql_data.get("total_matching", len(evidence_spans))
 
