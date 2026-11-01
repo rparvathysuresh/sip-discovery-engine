@@ -172,18 +172,10 @@
           </div>
 
           <div class="toolbar-secondary">
-            <div class="evidence-filter-pills">
-              <span style="font-size: 0.75rem; color: var(--text-muted); margin-right: 0.2rem;">Evidence Level:</span>
-              <button class="pill-btn active" data-level="all">All</button>
-              <button class="pill-btn" data-level="sufficient">Sufficient</button>
-              <button class="pill-btn" data-level="directional">Directional</button>
-              <button class="pill-btn" data-level="insufficient">Insufficient</button>
-            </div>
-
             <div class="score-slider-group">
               <span>Min Score:</span>
-              <input type="range" id="explorer-score-slider" class="score-slider" min="0" max="1" step="0.05" value="0" />
-              <strong id="score-slider-val" style="color: #fff; font-size: 0.82rem;">0.00</strong>
+              <input type="range" id="explorer-score-slider" class="score-slider" min="0" max="100" step="5" value="0" />
+              <strong id="score-slider-val" style="color: #fff; font-size: 0.82rem;">0%</strong>
             </div>
 
             <span id="results-count-label" class="results-count-label">Loading opportunities...</span>

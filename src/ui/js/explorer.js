@@ -52,15 +52,13 @@ function applyExplorerFilters() {
   const categorySelect = document.getElementById("explorer-category-filter");
   const minScoreSlider = document.getElementById("explorer-score-slider");
   const sliderValLabel = document.getElementById("score-slider-val");
-  const activeLevelBtn = document.querySelector(".pill-btn.active[data-level]");
 
   const searchTerm = (searchInput ? searchInput.value : "").toLowerCase().trim();
   const selectedCategory = (categorySelect ? categorySelect.value : "").toLowerCase().trim();
   const minScore = minScoreSlider ? parseFloat(minScoreSlider.value) : 0;
-  const selectedLevel = activeLevelBtn ? activeLevelBtn.getAttribute("data-level") : "all";
 
   if (sliderValLabel && minScoreSlider) {
-    sliderValLabel.textContent = minScore > 0 ? minScore.toFixed(2) : "0.00";
+    sliderValLabel.textContent = `${Math.round(minScore)}%`;
   }
 
   const filtered = allOpportunities.filter(item => {
@@ -78,16 +76,9 @@ function applyExplorerFilters() {
       }
     }
 
-    // Score
-    if (item.composite_score < minScore) {
+    // Score in percentage (minScore is 0..100, item.composite_score is 0..1)
+    if (((item.composite_score || 0) * 100) < minScore) {
       return false;
-    }
-
-    // Evidence Level
-    if (selectedLevel !== "all") {
-      if (!item.evidence_level || item.evidence_level.toLowerCase() !== selectedLevel.toLowerCase()) {
-        return false;
-      }
     }
 
     return true;
@@ -123,7 +114,8 @@ function renderOpportunityCards(items) {
     else if (rank === 2) rankClass = "rank-2";
     else if (rank === 3) rankClass = "rank-3";
 
-    const compScore = (item.composite_score || 0).toFixed(2);
+    // Show score in percentage
+    const compScorePct = Math.round((item.composite_score || 0) * 100) + "%";
     let scoreColor = "#94a3b8";
     if (item.composite_score >= 0.6) scoreColor = "#f87171";
     else if (item.composite_score >= 0.4) scoreColor = "#fbbf24";
@@ -133,13 +125,17 @@ function renderOpportunityCards(items) {
     const sevScore = (item.severity_score || 0).toFixed(2);
     const brdScore = (item.breadth_score || 0).toFixed(2);
 
-    let levelBadge = "badge-insufficient";
-    if (item.evidence_level === "sufficient") levelBadge = "badge-sufficient";
-    else if (item.evidence_level === "directional") levelBadge = "badge-directional";
-
-    // Lifecycle breakdown preview
-    const lifecycleKeys = item.lifecycle_breakdown ? Object.keys(item.lifecycle_breakdown).slice(0, 3) : [];
-    const segmentKeys = item.segment_breakdown ? Object.keys(item.segment_breakdown).slice(0, 2) : [];
+    // Lifecycle breakdown preview (filter out unknown tags)
+    const lifecycleKeys = item.lifecycle_breakdown 
+      ? Object.keys(item.lifecycle_breakdown)
+          .filter(k => k && k.toLowerCase() !== "unknown")
+          .slice(0, 3) 
+      : [];
+    const segmentKeys = item.segment_breakdown 
+      ? Object.keys(item.segment_breakdown)
+          .filter(s => s && s.toLowerCase() !== "unknown")
+          .slice(0, 3) 
+      : [];
 
     const oppIdSafe = escapeHtml(item.opportunity_id);
     const themeNameSafe = escapeHtml(item.theme_name);
@@ -154,7 +150,7 @@ function renderOpportunityCards(items) {
             <h3 class="card-theme-name">${themeNameSafe}</h3>
           </div>
           <div class="composite-score-badge">
-            <span class="score-num" style="color: ${scoreColor};">${compScore}</span>
+            <span class="score-num" style="color: ${scoreColor};">${compScorePct}</span>
             <span class="score-lbl">Score</span>
           </div>
         </div>
@@ -190,7 +186,6 @@ function renderOpportunityCards(items) {
         </div>
 
         <div class="card-tags-row">
-          <span class="badge ${levelBadge}">${escapeHtml(item.evidence_level || 'directional')}</span>
           ${lifecycleKeys.map(k => `<span class="sub-tag">${escapeHtml(k.replace(/_/g, ' '))}</span>`).join(" ")}
           ${segmentKeys.map(s => `<span class="sub-tag" style="color: #67e8f9;">${escapeHtml(s)}</span>`).join(" ")}
         </div>
@@ -220,11 +215,7 @@ function resetExplorerFilters() {
   if (searchInput) searchInput.value = "";
   if (categorySelect) categorySelect.value = "";
   if (minScoreSlider) minScoreSlider.value = "0";
-  if (sliderValLabel) sliderValLabel.textContent = "0.00";
-
-  document.querySelectorAll(".pill-btn[data-level]").forEach(btn => {
-    btn.classList.toggle("active", btn.getAttribute("data-level") === "all");
-  });
+  if (sliderValLabel) sliderValLabel.textContent = "0%";
 
   applyExplorerFilters();
 }
@@ -234,21 +225,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("explorer-search-input");
   const categorySelect = document.getElementById("explorer-category-filter");
   const minScoreSlider = document.getElementById("explorer-score-slider");
-  const levelBtns = document.querySelectorAll(".pill-btn[data-level]");
   const resetBtn = document.getElementById("explorer-reset-btn");
 
   if (searchInput) searchInput.addEventListener("input", applyExplorerFilters);
   if (categorySelect) categorySelect.addEventListener("change", applyExplorerFilters);
   if (minScoreSlider) minScoreSlider.addEventListener("input", applyExplorerFilters);
-
-  levelBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      levelBtns.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      applyExplorerFilters();
-    });
-  });
-
   if (resetBtn) resetBtn.addEventListener("click", resetExplorerFilters);
 });
 
