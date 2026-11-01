@@ -1,0 +1,27 @@
+# config/extraction.yaml
+# LLM Structured Extraction configuration (using Groq)
+
+models:
+  primary: "openai/gpt-oss-120b"
+  fallback: "openai/gpt-oss-20b"
+
+parameters:
+  temperature: 0.1
+  max_tokens: 1024
+  response_format: "json_object"
+
+batch_processing:
+  batch_size: 50
+  parallel_concurrency: 10
+  rate_limit_per_minute: 30
+  max_retries: 3
+  base_retry_delay_seconds: 1.0
+
+prompt_version: "v1.0"
+model_version: "openai/gpt-oss-120b"
+
+schema_validation:
+  strict_enums: true
+  evidence_span_max_words: 35
+  require_evidence_span: true
+

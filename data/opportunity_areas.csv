@@ -1,0 +1,9 @@
+﻿rank,opportunity_id,theme_name,theme_category,frequency_count,frequency_share,severity_score,breadth_score,composite_score,evidence_level,sufficient_evidence
+1,d67ade1e-c4a7-4003-84a4-58058f09dfa9,Onboarding & KYC Friction,Lifecycle Friction & Mandates,3,0.2727,0.6667,0.1964,0.7059,insufficient,No
+2,f1297a6b-9c09-4e50-999c-f4ee74d7d1f2,"Confusing Statements, NAV & Taxes",Knowledge & Guidance Gap,2,0.1818,0.0000,0.0714,0.2809,insufficient,No
+3,eafebda2-62b8-45ba-880c-dba31fe2ceea,Capital Safety Fear,Trust & Confidence Erosion,1,0.0909,0.0000,0.1964,0.1726,insufficient,No
+4,e63d87ef-af59-43a6-96f8-cc0d8362bdb6,Fund Selection & Thematic Risk Paralysis,Knowledge & Guidance Gap,1,0.0909,0.0000,0.0714,0.1476,insufficient,No
+5,64cf3f9f-fcdd-4a43-9eb9-990ef14f3d11,Unrealistic Return Expectations,Returns Disappointment,1,0.0909,0.0000,0.0714,0.1476,insufficient,No
+6,86b15735-60dd-409b-acfc-14c63848ffc4,Step-Up & Increment Rules Friction,Lifecycle Friction & Mandates,1,0.0909,0.0000,0.0714,0.1476,insufficient,No
+7,95c37fd2-2c48-47b9-af7c-84cbdad22081,Market Volatility Fear,Trust & Confidence Erosion,1,0.0909,0.0000,0.0714,0.1476,insufficient,No
+8,f0f7b51b-8090-4063-8f08-5032431ac20f,Confusion Between Absolute and XIRR,Returns Disappointment,1,0.0909,0.0000,0.0714,0.1476,insufficient,No

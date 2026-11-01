@@ -1,0 +1,44 @@
+# config/guardrails.yaml
+# Guardrails, boundary enforcement, and privacy rules
+
+investment_advice:
+  refuse_recommendations: true
+  refusal_message: "I'm designed to surface research findings about investor behavior, not to recommend specific funds or investments. Based on the corpus, I can help you understand reasons first-time investors pause or stop their SIPs. Would you like to explore that?"
+  trigger_keywords:
+    - "which fund to buy"
+    - "best mutual fund"
+    - "recommend a fund"
+    - "should i invest in"
+    - "target price"
+    - "future return prediction"
+
+tone_and_framing:
+  block_fomo_and_urgency: true
+  forbidden_phrases:
+    - "invest now or miss out"
+    - "don't miss this opportunity"
+    - "market crash incoming"
+    - "guaranteed returns"
+    - "foolproof strategy"
+
+evidence_thresholds:
+  headline:
+    min_count: 30
+    min_sources: 2
+    label: null
+  supporting:
+    min_count: 10
+    label: "Directional only"
+  anecdotal:
+    max_count: 9
+    label: "Insufficient evidence"
+
+privacy:
+  redact_names: true
+  redact_phones: true
+  redact_emails: true
+  redact_pan: true
+  redact_bank_accounts: true
+  hash_usernames: true
+  username_salt: ${USERNAME_SALT:-sip_discovery_salt_2026}
+

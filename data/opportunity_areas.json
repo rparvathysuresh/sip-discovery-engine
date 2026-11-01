@@ -1,0 +1,167 @@
+[
+  {
+    "opportunity_id": "d67ade1e-c4a7-4003-84a4-58058f09dfa9",
+    "theme_name": "Onboarding & KYC Friction",
+    "theme_category": "Lifecycle Friction & Mandates",
+    "frequency_count": 3,
+    "frequency_share": 0.2727,
+    "severity_score": 0.6667,
+    "breadth_score": 0.1964,
+    "composite_score": 0.7059,
+    "segment_breakdown": {
+      "age_35+": 1
+    },
+    "lifecycle_breakdown": {
+      "unknown": 1,
+      "pre-start": 2
+    },
+    "source_breakdown": {
+      "reddit": 3
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "f1297a6b-9c09-4e50-999c-f4ee74d7d1f2",
+    "theme_name": "Confusing Statements, NAV & Taxes",
+    "theme_category": "Knowledge & Guidance Gap",
+    "frequency_count": 2,
+    "frequency_share": 0.1818,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.2809,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 2
+    },
+    "source_breakdown": {
+      "reddit": 2
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "eafebda2-62b8-45ba-880c-dba31fe2ceea",
+    "theme_name": "Capital Safety Fear",
+    "theme_category": "Trust & Confidence Erosion",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.1964,
+    "composite_score": 0.1726,
+    "segment_breakdown": {
+      "age_35+": 1
+    },
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "e63d87ef-af59-43a6-96f8-cc0d8362bdb6",
+    "theme_name": "Fund Selection & Thematic Risk Paralysis",
+    "theme_category": "Knowledge & Guidance Gap",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.1476,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "64cf3f9f-fcdd-4a43-9eb9-990ef14f3d11",
+    "theme_name": "Unrealistic Return Expectations",
+    "theme_category": "Returns Disappointment",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.1476,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "86b15735-60dd-409b-acfc-14c63848ffc4",
+    "theme_name": "Step-Up & Increment Rules Friction",
+    "theme_category": "Lifecycle Friction & Mandates",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.1476,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "95c37fd2-2c48-47b9-af7c-84cbdad22081",
+    "theme_name": "Market Volatility Fear",
+    "theme_category": "Trust & Confidence Erosion",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.1476,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  },
+  {
+    "opportunity_id": "f0f7b51b-8090-4063-8f08-5032431ac20f",
+    "theme_name": "Confusion Between Absolute and XIRR",
+    "theme_category": "Returns Disappointment",
+    "frequency_count": 1,
+    "frequency_share": 0.0909,
+    "severity_score": 0.0,
+    "breadth_score": 0.0714,
+    "composite_score": 0.1476,
+    "segment_breakdown": {},
+    "lifecycle_breakdown": {
+      "unknown": 1
+    },
+    "source_breakdown": {
+      "reddit": 1
+    },
+    "sufficient_evidence": false,
+    "evidence_level": "insufficient",
+    "computed_at": "2026-11-01T09:34:37.074266Z"
+  }
+]

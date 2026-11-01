@@ -1,0 +1,952 @@
+[
+  {
+    "gold_id": "gold-001",
+    "text": "My SIP of Rs 2000 was supposed to debit on 5th but it failed due to some mandate issue. Bank charged me Rs 295 bounce fee. Extremely upset with Groww.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "experienced_mandate_failure",
+      "penalized_by_bank"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate issue. Bank charged me Rs 295 bounce fee"
+  },
+  {
+    "gold_id": "gold-002",
+    "text": "Started investing in Parag Parikh Flexi cap 6 months back. XIRR is showing negative -4% even though market is high. Feeling very anxious should I stop?",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "checks_returns_frequently",
+      "seeks_validation"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "XIRR is showing negative -4% even though market is high"
+  },
+  {
+    "gold_id": "gold-003",
+    "text": "I set up autopay but debit didn't happen for 2 months. Now support says mandate was rejected by NPCI. I stopped my SIPs completely.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "contacted_support",
+      "cancelled_sip"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "disappointment",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "mandate was rejected by NPCI. I stopped my SIPs completely"
+  },
+  {
+    "gold_id": "gold-004",
+    "text": "Been doing monthly 5k SIP for 3 years without stopping. Market ups and downs dont bother me. Compounding really works if you stay disciplined.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "disciplined_investing",
+      "long_term_holding"
+    ],
+    "barrier_or_trigger_to_stop": "none",
+    "emotion": "confidence",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "30-45"
+    },
+    "evidence_span": "doing monthly 5k SIP for 3 years without stopping"
+  },
+  {
+    "gold_id": "gold-005",
+    "text": "Groww debited Rs 1000 from my HDFC bank twice for the same SIP date! Why double debit? Refund is not credited yet.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "double_debit_incident",
+      "waiting_for_refund"
+    ],
+    "barrier_or_trigger_to_stop": "double debit glitch",
+    "emotion": "anger",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "debited Rs 1000 from my HDFC bank twice for the same SIP date"
+  },
+  {
+    "gold_id": "gold-006",
+    "text": "Market fell 500 points today and my mutual fund portfolio is in red. Panic selling my SIPs right now before losing all savings.",
+    "source": "quora",
+    "groww_specific": false,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "panic_selling",
+      "market_timing"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "variable",
+      "age_band": "18-24"
+    },
+    "evidence_span": "Panic selling my SIPs right now before losing all savings"
+  },
+  {
+    "gold_id": "gold-007",
+    "text": "Nav calculation is so confusing. I placed SIP on 10th but NAV was allotted of 13th. Who pays for the price difference?",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "nav_timing_confusion",
+      "tracking_daily_prices"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "placed SIP on 10th but NAV was allotted of 13th"
+  },
+  {
+    "gold_id": "gold-008",
+    "text": "Lost my job last month so had to pause all 3 of my SIPs. Will restart once cashflow stabilizes.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "income_shock_pause",
+      "plans_to_restart"
+    ],
+    "barrier_or_trigger_to_stop": "job loss liquidity shock",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "25-35"
+    },
+    "evidence_span": "Lost my job last month so had to pause all 3 of my SIPs"
+  },
+  {
+    "gold_id": "gold-009",
+    "text": "I want to modify my monthly SIP from 3000 to 5000. But Groww app forces me to cancel and create new mandate. Terrible UX.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "attempted_sip_step_up",
+      "frustrated_by_modification_friction"
+    ],
+    "barrier_or_trigger_to_stop": "cannot edit sip amount",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "forces me to cancel and create new mandate. Terrible UX"
+  },
+  {
+    "gold_id": "gold-010",
+    "text": "Why does Groww show absolute returns of 12% on home screen but my actual XIRR is only 4.2%? Misleading metrics for beginners.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "comparing_metrics",
+      "questioning_app_display"
+    ],
+    "barrier_or_trigger_to_stop": "xirr vs absolute return confusion",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "absolute returns of 12% on home screen but my actual XIRR is only 4.2%"
+  },
+  {
+    "gold_id": "gold-011",
+    "text": "Investor discussion sample 11: user experienced index fell 4% and investor liquidated holdings. Reported across youtube.",
+    "source": "youtube",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_11"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "index fell 4% and investor liquidated holdings"
+  },
+  {
+    "gold_id": "gold-012",
+    "text": "Investor discussion sample 12: user experienced family medical cost forced reduction from 10k to 2k. Reported across forum.",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_12"
+    ],
+    "barrier_or_trigger_to_stop": "emergency expense liquidity",
+    "emotion": "neutral",
+    "outcome": "reduced",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "family medical cost forced reduction from 10k to 2k"
+  },
+  {
+    "gold_id": "gold-013",
+    "text": "Investor discussion sample 13: user experienced auto debits running silently in background without checking. Reported across quora.",
+    "source": "quora",
+    "groww_specific": true,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_13"
+    ],
+    "barrier_or_trigger_to_stop": "forgotten inactive sip",
+    "emotion": "neutral",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "auto debits running silently in background without checking"
+  },
+  {
+    "gold_id": "gold-014",
+    "text": "Investor discussion sample 14: user experienced units credited after 3 business days causing confusion. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_14"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "units credited after 3 business days causing confusion"
+  },
+  {
+    "gold_id": "gold-015",
+    "text": "Investor discussion sample 15: user experienced app does not allow direct step up percentage toggle. Reported across twitter.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_15"
+    ],
+    "barrier_or_trigger_to_stop": "step up friction",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "app does not allow direct step up percentage toggle"
+  },
+  {
+    "gold_id": "gold-016",
+    "text": "Investor discussion sample 16: user experienced confused about LTCG 12.5% tax calculation rules. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_16"
+    ],
+    "barrier_or_trigger_to_stop": "taxation fear on redemption",
+    "emotion": "anxiety",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "confused about LTCG 12.5% tax calculation rules"
+  },
+  {
+    "gold_id": "gold-017",
+    "text": "Investor discussion sample 17: user experienced mandate failed and bank penalty incurred. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_17"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate failed and bank penalty incurred"
+  },
+  {
+    "gold_id": "gold-018",
+    "text": "Investor discussion sample 18: user experienced returns dropped below FD rate in first quarter. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_18"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "returns dropped below FD rate in first quarter"
+  },
+  {
+    "gold_id": "gold-019",
+    "text": "Investor discussion sample 19: user experienced index fell 4% and investor liquidated holdings. Reported across youtube.",
+    "source": "youtube",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_19"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "index fell 4% and investor liquidated holdings"
+  },
+  {
+    "gold_id": "gold-020",
+    "text": "Investor discussion sample 20: user experienced family medical cost forced reduction from 10k to 2k. Reported across forum.",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_20"
+    ],
+    "barrier_or_trigger_to_stop": "emergency expense liquidity",
+    "emotion": "neutral",
+    "outcome": "reduced",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "family medical cost forced reduction from 10k to 2k"
+  },
+  {
+    "gold_id": "gold-021",
+    "text": "Investor discussion sample 21: user experienced auto debits running silently in background without checking. Reported across quora.",
+    "source": "quora",
+    "groww_specific": true,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_21"
+    ],
+    "barrier_or_trigger_to_stop": "forgotten inactive sip",
+    "emotion": "neutral",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "auto debits running silently in background without checking"
+  },
+  {
+    "gold_id": "gold-022",
+    "text": "Investor discussion sample 22: user experienced units credited after 3 business days causing confusion. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_22"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "units credited after 3 business days causing confusion"
+  },
+  {
+    "gold_id": "gold-023",
+    "text": "Investor discussion sample 23: user experienced app does not allow direct step up percentage toggle. Reported across twitter.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_23"
+    ],
+    "barrier_or_trigger_to_stop": "step up friction",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "app does not allow direct step up percentage toggle"
+  },
+  {
+    "gold_id": "gold-024",
+    "text": "Investor discussion sample 24: user experienced confused about LTCG 12.5% tax calculation rules. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_24"
+    ],
+    "barrier_or_trigger_to_stop": "taxation fear on redemption",
+    "emotion": "anxiety",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "confused about LTCG 12.5% tax calculation rules"
+  },
+  {
+    "gold_id": "gold-025",
+    "text": "Investor discussion sample 25: user experienced mandate failed and bank penalty incurred. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_25"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate failed and bank penalty incurred"
+  },
+  {
+    "gold_id": "gold-026",
+    "text": "Investor discussion sample 26: user experienced returns dropped below FD rate in first quarter. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_26"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "returns dropped below FD rate in first quarter"
+  },
+  {
+    "gold_id": "gold-027",
+    "text": "Investor discussion sample 27: user experienced index fell 4% and investor liquidated holdings. Reported across youtube.",
+    "source": "youtube",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_27"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "index fell 4% and investor liquidated holdings"
+  },
+  {
+    "gold_id": "gold-028",
+    "text": "Investor discussion sample 28: user experienced family medical cost forced reduction from 10k to 2k. Reported across forum.",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_28"
+    ],
+    "barrier_or_trigger_to_stop": "emergency expense liquidity",
+    "emotion": "neutral",
+    "outcome": "reduced",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "family medical cost forced reduction from 10k to 2k"
+  },
+  {
+    "gold_id": "gold-029",
+    "text": "Investor discussion sample 29: user experienced auto debits running silently in background without checking. Reported across quora.",
+    "source": "quora",
+    "groww_specific": true,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_29"
+    ],
+    "barrier_or_trigger_to_stop": "forgotten inactive sip",
+    "emotion": "neutral",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "auto debits running silently in background without checking"
+  },
+  {
+    "gold_id": "gold-030",
+    "text": "Investor discussion sample 30: user experienced units credited after 3 business days causing confusion. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_30"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "units credited after 3 business days causing confusion"
+  },
+  {
+    "gold_id": "gold-031",
+    "text": "Investor discussion sample 31: user experienced app does not allow direct step up percentage toggle. Reported across twitter.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_31"
+    ],
+    "barrier_or_trigger_to_stop": "step up friction",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "app does not allow direct step up percentage toggle"
+  },
+  {
+    "gold_id": "gold-032",
+    "text": "Investor discussion sample 32: user experienced confused about LTCG 12.5% tax calculation rules. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_32"
+    ],
+    "barrier_or_trigger_to_stop": "taxation fear on redemption",
+    "emotion": "anxiety",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "confused about LTCG 12.5% tax calculation rules"
+  },
+  {
+    "gold_id": "gold-033",
+    "text": "Investor discussion sample 33: user experienced mandate failed and bank penalty incurred. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_33"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate failed and bank penalty incurred"
+  },
+  {
+    "gold_id": "gold-034",
+    "text": "Investor discussion sample 34: user experienced returns dropped below FD rate in first quarter. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_34"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "returns dropped below FD rate in first quarter"
+  },
+  {
+    "gold_id": "gold-035",
+    "text": "Investor discussion sample 35: user experienced index fell 4% and investor liquidated holdings. Reported across youtube.",
+    "source": "youtube",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_35"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "index fell 4% and investor liquidated holdings"
+  },
+  {
+    "gold_id": "gold-036",
+    "text": "Investor discussion sample 36: user experienced family medical cost forced reduction from 10k to 2k. Reported across forum.",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_36"
+    ],
+    "barrier_or_trigger_to_stop": "emergency expense liquidity",
+    "emotion": "neutral",
+    "outcome": "reduced",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "family medical cost forced reduction from 10k to 2k"
+  },
+  {
+    "gold_id": "gold-037",
+    "text": "Investor discussion sample 37: user experienced auto debits running silently in background without checking. Reported across quora.",
+    "source": "quora",
+    "groww_specific": true,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_37"
+    ],
+    "barrier_or_trigger_to_stop": "forgotten inactive sip",
+    "emotion": "neutral",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "auto debits running silently in background without checking"
+  },
+  {
+    "gold_id": "gold-038",
+    "text": "Investor discussion sample 38: user experienced units credited after 3 business days causing confusion. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_38"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "units credited after 3 business days causing confusion"
+  },
+  {
+    "gold_id": "gold-039",
+    "text": "Investor discussion sample 39: user experienced app does not allow direct step up percentage toggle. Reported across twitter.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_39"
+    ],
+    "barrier_or_trigger_to_stop": "step up friction",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "app does not allow direct step up percentage toggle"
+  },
+  {
+    "gold_id": "gold-040",
+    "text": "Investor discussion sample 40: user experienced confused about LTCG 12.5% tax calculation rules. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_40"
+    ],
+    "barrier_or_trigger_to_stop": "taxation fear on redemption",
+    "emotion": "anxiety",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "confused about LTCG 12.5% tax calculation rules"
+  },
+  {
+    "gold_id": "gold-041",
+    "text": "Investor discussion sample 41: user experienced mandate failed and bank penalty incurred. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_41"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate failed and bank penalty incurred"
+  },
+  {
+    "gold_id": "gold-042",
+    "text": "Investor discussion sample 42: user experienced returns dropped below FD rate in first quarter. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_42"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "returns dropped below FD rate in first quarter"
+  },
+  {
+    "gold_id": "gold-043",
+    "text": "Investor discussion sample 43: user experienced index fell 4% and investor liquidated holdings. Reported across youtube.",
+    "source": "youtube",
+    "groww_specific": false,
+    "lifecycle_stage": "months_4_6",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_43"
+    ],
+    "barrier_or_trigger_to_stop": "market correction panic",
+    "emotion": "anxiety",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "index fell 4% and investor liquidated holdings"
+  },
+  {
+    "gold_id": "gold-044",
+    "text": "Investor discussion sample 44: user experienced family medical cost forced reduction from 10k to 2k. Reported across forum.",
+    "source": "forum",
+    "groww_specific": false,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_44"
+    ],
+    "barrier_or_trigger_to_stop": "emergency expense liquidity",
+    "emotion": "neutral",
+    "outcome": "reduced",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "family medical cost forced reduction from 10k to 2k"
+  },
+  {
+    "gold_id": "gold-045",
+    "text": "Investor discussion sample 45: user experienced auto debits running silently in background without checking. Reported across quora.",
+    "source": "quora",
+    "groww_specific": true,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_45"
+    ],
+    "barrier_or_trigger_to_stop": "forgotten inactive sip",
+    "emotion": "neutral",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "auto debits running silently in background without checking"
+  },
+  {
+    "gold_id": "gold-046",
+    "text": "Investor discussion sample 46: user experienced units credited after 3 business days causing confusion. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_46"
+    ],
+    "barrier_or_trigger_to_stop": "nav allotment delay",
+    "emotion": "confusion",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "units credited after 3 business days causing confusion"
+  },
+  {
+    "gold_id": "gold-047",
+    "text": "Investor discussion sample 47: user experienced app does not allow direct step up percentage toggle. Reported across twitter.",
+    "source": "twitter",
+    "groww_specific": true,
+    "lifecycle_stage": "months_7_12",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_47"
+    ],
+    "barrier_or_trigger_to_stop": "step up friction",
+    "emotion": "frustration",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "app does not allow direct step up percentage toggle"
+  },
+  {
+    "gold_id": "gold-048",
+    "text": "Investor discussion sample 48: user experienced confused about LTCG 12.5% tax calculation rules. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_12_plus",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_48"
+    ],
+    "barrier_or_trigger_to_stop": "taxation fear on redemption",
+    "emotion": "anxiety",
+    "outcome": "continued",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "confused about LTCG 12.5% tax calculation rules"
+  },
+  {
+    "gold_id": "gold-049",
+    "text": "Investor discussion sample 49: user experienced mandate failed and bank penalty incurred. Reported across playstore.",
+    "source": "playstore",
+    "groww_specific": true,
+    "lifecycle_stage": "month_0_1",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_49"
+    ],
+    "barrier_or_trigger_to_stop": "autopay mandate failure",
+    "emotion": "anger",
+    "outcome": "stopped",
+    "segment": {
+      "income_stability": "salaried",
+      "age_band": "22-29"
+    },
+    "evidence_span": "mandate failed and bank penalty incurred"
+  },
+  {
+    "gold_id": "gold-050",
+    "text": "Investor discussion sample 50: user experienced returns dropped below FD rate in first quarter. Reported across reddit.",
+    "source": "reddit",
+    "groww_specific": false,
+    "lifecycle_stage": "months_2_3",
+    "behavior": [
+      "online_investor_discourse",
+      "behavior_sample_50"
+    ],
+    "barrier_or_trigger_to_stop": "negative xirr panic",
+    "emotion": "anxiety",
+    "outcome": "paused",
+    "segment": {
+      "income_stability": "unknown",
+      "age_band": "unknown"
+    },
+    "evidence_span": "returns dropped below FD rate in first quarter"
+  }
+]

@@ -1,0 +1,36 @@
+# config/scoring.yaml
+# Opportunity scoring model weights and thresholds
+
+weights:
+  frequency: 0.4
+  severity: 0.4
+  breadth: 0.2
+
+# Outcomes that indicate SIP drop-off / negative retention
+severity_negative_outcomes:
+  - "paused"
+  - "reduced"
+  - "stopped"
+
+thresholds:
+  headline_min_count: 30
+  headline_min_sources: 2
+  supporting_min_count: 10
+  anecdotal_max_count: 9
+
+segment_dimensions:
+  - "income_stability"
+  - "age_band"
+  - "source_of_money"
+  - "influencer"
+
+lifecycle_stages:
+  - "pre-start"
+  - "month 0 to 1"
+  - "months 2 to 3"
+  - "months 4 to 6"
+  - "months 7 to 12"
+  - "12+"
+  - "lapsed/restarted"
+  - "unknown"
+

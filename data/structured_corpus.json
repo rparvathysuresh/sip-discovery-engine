@@ -1,0 +1,26 @@
+[
+  {
+    "record_id": "rec_001",
+    "raw_id": "item_a",
+    "groww_specific": true,
+    "lifecycle_stage": "months 2 to 3",
+    "behavior": [
+      "stopped SIP"
+    ],
+    "driver_to_start": "peer",
+    "expectation": "returns",
+    "barrier_or_trigger_to_stop": "market drop",
+    "confusion_or_worry_in_app": "XIRR",
+    "checking_behavior": "daily",
+    "outside_app_behavior": "reddit",
+    "emotion": "anxiety",
+    "segment": {},
+    "outcome": "stopped",
+    "evidence_span": "stopped SIP",
+    "confidence": {},
+    "extracted_at": "2026-11-01T00:00:00",
+    "extraction_status": "success",
+    "model_version": "llama-3.3-70b-versatile",
+    "prompt_version": "v1.0"
+  }
+]

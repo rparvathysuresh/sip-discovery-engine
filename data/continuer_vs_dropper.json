@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "total_records": 11,
+    "continuers_count": 2,
+    "continuers_share": 0.1818,
+    "droppers_count": 2,
+    "droppers_share": 0.1818,
+    "unclear_count": 7,
+    "unclear_share": 0.6364
+  },
+  "top_dropper_signals": [
+    "onboarding & kyc friction (Droppers: 100.0%, Continuers: 0.0%, OR: 25.0)"
+  ],
+  "top_continuer_signals": [
+    "confusion between absolute and xirr (Continuers: 50.0%, Droppers: 0.0%, OR: 0.2)",
+    "market volatility fear (Continuers: 50.0%, Droppers: 0.0%, OR: 0.2)"
+  ],
+  "emotions": [
+    {
+      "dimension": "emotion",
+      "value": "disappointment",
+      "dropper_count": 2,
+      "dropper_pct": 100.0,
+      "continuer_count": 0,
+      "continuer_pct": 0.0,
+      "diff_pct": 100.0,
+      "odds_ratio": 25.0,
+      "chi2": 1.0,
+      "p_value": 0.31731,
+      "significance": "ns"
+    },
+    {
+      "dimension": "emotion",
+      "value": "anxiety",
+      "dropper_count": 0,
+      "dropper_pct": 0.0,
+      "continuer_count": 1,
+      "continuer_pct": 50.0,
+      "diff_pct": -50.0,
+      "odds_ratio": 0.2,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significance": "ns"
+    },
+    {
+      "dimension": "emotion",
+      "value": "confidence",
+      "dropper_count": 0,
+      "dropper_pct": 0.0,
+      "continuer_count": 1,
+      "continuer_pct": 50.0,
+      "diff_pct": -50.0,
+      "odds_ratio": 0.2,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significance": "ns"
+    }
+  ],
+  "lifecycle_stages": [
+    {
+      "dimension": "lifecycle_stage",
+      "value": "pre-start",
+      "dropper_count": 2,
+      "dropper_pct": 100.0,
+      "continuer_count": 0,
+      "continuer_pct": 0.0,
+      "diff_pct": 100.0,
+      "odds_ratio": 25.0,
+      "chi2": 1.0,
+      "p_value": 0.31731,
+      "significance": "ns"
+    }
+  ],
+  "checking_behavior": [
+    {
+      "dimension": "checking_behavior",
+      "value": "checks app to view total gain bar chart",
+      "dropper_count": 0,
+      "dropper_pct": 0.0,
+      "continuer_count": 1,
+      "continuer_pct": 50.0,
+      "diff_pct": -50.0,
+      "odds_ratio": 0.2,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significance": "ns"
+    }
+  ],
+  "outside_app_behavior": [],
+  "primary_themes": [
+    {
+      "dimension": "primary_theme",
+      "value": "onboarding & kyc friction",
+      "dropper_count": 2,
+      "dropper_pct": 100.0,
+      "continuer_count": 0,
+      "continuer_pct": 0.0,
+      "diff_pct": 100.0,
+      "odds_ratio": 25.0,
+      "chi2": 1.0,
+      "p_value": 0.31731,
+      "significance": "ns"
+    },
+    {
+      "dimension": "primary_theme",
+      "value": "confusion between absolute and xirr",
+      "dropper_count": 0,
+      "dropper_pct": 0.0,
+      "continuer_count": 1,
+      "continuer_pct": 50.0,
+      "diff_pct": -50.0,
+      "odds_ratio": 0.2,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significance": "ns"
+    },
+    {
+      "dimension": "primary_theme",
+      "value": "market volatility fear",
+      "dropper_count": 0,
+      "dropper_pct": 0.0,
+      "continuer_count": 1,
+      "continuer_pct": 50.0,
+      "diff_pct": -50.0,
+      "odds_ratio": 0.2,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "significance": "ns"
+    }
+  ]
+}

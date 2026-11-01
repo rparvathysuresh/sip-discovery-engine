@@ -1,0 +1,109 @@
+{
+  "total_records": 11,
+  "lifecycle_breakdown": {
+    "unknown": {
+      "count": 9,
+      "share": 0.8182,
+      "drop_off_count": 0,
+      "drop_off_rate": 0.0,
+      "top_emotions": {
+        "anxiety": 1,
+        "confidence": 1
+      },
+      "top_themes": {
+        "Confusing Statements, NAV & Taxes": 2,
+        "Fund Selection & Thematic Risk Paralysis": 1,
+        "Unrealistic Return Expectations": 1
+      }
+    },
+    "pre-start": {
+      "count": 2,
+      "share": 0.1818,
+      "drop_off_count": 2,
+      "drop_off_rate": 1.0,
+      "top_emotions": {
+        "disappointment": 2
+      },
+      "top_themes": {
+        "Onboarding & KYC Friction": 2
+      }
+    }
+  },
+  "segment_breakdown": {
+    "income_stability": {
+      "unknown": {
+        "count": 11,
+        "share": 1.0,
+        "drop_off_count": 2,
+        "drop_off_rate": 0.1818
+      }
+    },
+    "age_band": {
+      "unknown": {
+        "count": 9,
+        "share": 0.8182,
+        "drop_off_count": 2,
+        "drop_off_rate": 0.2222
+      },
+      "35+": {
+        "count": 2,
+        "share": 0.1818,
+        "drop_off_count": 0,
+        "drop_off_rate": 0.0
+      }
+    },
+    "source_of_money": {
+      "unknown": {
+        "count": 11,
+        "share": 1.0,
+        "drop_off_count": 2,
+        "drop_off_rate": 0.1818
+      }
+    },
+    "influencer": {
+      "unknown": {
+        "count": 11,
+        "share": 1.0,
+        "drop_off_count": 2,
+        "drop_off_rate": 0.1818
+      }
+    }
+  },
+  "platform_breakdown": {
+    "groww_specific": {
+      "count": 10,
+      "share": 0.9091,
+      "drop_off_count": 2,
+      "drop_off_rate": 0.2,
+      "top_themes": {
+        "Onboarding & KYC Friction": 3,
+        "Fund Selection & Thematic Risk Paralysis": 1,
+        "Confusing Statements, NAV & Taxes": 1,
+        "Unrealistic Return Expectations": 1,
+        "Step-Up & Increment Rules Friction": 1
+      }
+    },
+    "platform_agnostic": {
+      "count": 1,
+      "share": 0.0909,
+      "drop_off_count": 0,
+      "drop_off_rate": 0.0,
+      "top_themes": {
+        "Confusing Statements, NAV & Taxes": 1
+      }
+    }
+  },
+  "source_breakdown": {
+    "reddit": {
+      "count": 11,
+      "share": 1.0,
+      "drop_off_count": 2,
+      "drop_off_rate": 0.1818,
+      "top_themes": {
+        "Onboarding & KYC Friction": 3,
+        "Confusing Statements, NAV & Taxes": 2,
+        "Fund Selection & Thematic Risk Paralysis": 1
+      }
+    }
+  }
+}

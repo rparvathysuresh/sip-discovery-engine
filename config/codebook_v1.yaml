@@ -1,0 +1,367 @@
+# config/codebook_v1.yaml
+# Hierarchical Theme Codebook for SIP Behavioral Opportunities
+# Covers 6 top-level opportunity categories and 20 specific sub-themes.
+
+version: "v1.0"
+description: "Hierarchical codebook for clustering mutual fund SIP investor signals, frictions, and retention opportunities."
+
+categories:
+  - id: "returns_disappointment"
+    name: "Returns Disappointment"
+    description: "Investor dissatisfaction stemming from negative or lower-than-expected short-term returns and metric confusion."
+    sub_themes:
+      - id: "unrealistic_return_expectations"
+        name: "Unrealistic Return Expectations"
+        description: "Expecting fast 20-30%+ returns in short periods or equating equity SIPs to risk-free guaranteed compounding."
+        keywords:
+          - "guaranteed"
+          - "guarantee"
+          - "30%"
+          - "20%"
+          - "double money"
+          - "quick profit"
+          - "get rich"
+          - "fixed return"
+          - "promise"
+          - "promising"
+          - "high return"
+          - "monthly return"
+        typical_emotions: ["disappointment", "regret"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "negative_short_term_returns"
+        name: "Negative Short-Term Returns"
+        description: "Portfolio going into the red within 1-6 months of starting SIP, causing panic or disillusionment."
+        keywords:
+          - "in red"
+          - "negative return"
+          - "returns are negative"
+          - "-2%"
+          - "-5%"
+          - "-10%"
+          - "portfolio down"
+          - "loss in mutual fund"
+          - "losing money"
+          - "market falling"
+          - "portfolio negative"
+          - "red"
+          - "down"
+        typical_emotions: ["panic", "anxiety", "disappointment"]
+        typical_outcomes: ["stopped", "paused", "reduced"]
+
+      - id: "xirr_vs_absolute_confusion"
+        name: "Confusion Between Absolute and XIRR"
+        description: "Misunderstanding annualized return metrics, XIRR calculations, or daily NAV fluctuations vs overall returns."
+        keywords:
+          - "xirr"
+          - "cagr"
+          - "absolute return"
+          - "percentage wrong"
+          - "return calculation"
+          - "why is xirr"
+          - "confusing returns"
+          - "calculation mistake"
+          - "total gain"
+          - "bar chart"
+        typical_emotions: ["confusion", "distrust", "confidence"]
+        typical_outcomes: ["unclear", "continued"]
+
+  - id: "trust_confidence_erosion"
+    name: "Trust & Confidence Erosion"
+    description: "Fears regarding capital safety, market crashes, platform integrity, or unhandled operational glitches."
+    sub_themes:
+      - id: "market_volatility_panic"
+        name: "Market Volatility Fear"
+        description: "Extreme anxiety during market corrections leading to urge to stop SIP or redeem everything."
+        keywords:
+          - "market crash"
+          - "market falling"
+          - "bear market"
+          - "panic sell"
+          - "bloodbath"
+          - "volatility"
+          - "sensex fall"
+          - "nifty down"
+          - "dip"
+          - "crash"
+          - "panic"
+        typical_emotions: ["panic", "anxiety", "fear"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "capital_safety_fear"
+        name: "Capital Safety Fear"
+        description: "Worries over whether money invested through digital fintech apps is actually safe and registered with AMC/BSE."
+        keywords:
+          - "is my money safe"
+          - "what if groww shuts"
+          - "amc safe"
+          - "fraud"
+          - "scam"
+          - "registered"
+          - "capital protection"
+          - "will i lose capital"
+          - "suitability"
+          - "suitability warning"
+          - "unproven"
+          - "pension"
+        typical_emotions: ["fear", "distrust"]
+        typical_outcomes: ["stopped", "unclear"]
+
+      - id: "platform_distrust_and_glitches"
+        name: "Platform Distrust & App Glitches"
+        description: "Frustration with app crashes, delayed NAV allotment, order failures, wrong portfolio balances, or poor support."
+        keywords:
+          - "nav delay"
+          - "allotment delay"
+          - "units not allocated"
+          - "order failed"
+          - "support not replying"
+          - "worst customer care"
+          - "glitch"
+          - "app crashed"
+          - "balance not showing"
+          - "money deducted but"
+          - "backend rejected"
+          - "server down"
+          - "customer service"
+        typical_emotions: ["frustration", "anger", "distrust"]
+        typical_outcomes: ["stopped", "paused"]
+
+  - id: "lifecycle_friction"
+    name: "Lifecycle Friction & Mandates"
+    description: "Operational friction in onboarding, autopay setup, bank mandates, modifying installments, or KYC."
+    sub_themes:
+      - id: "autopay_mandate_failure"
+        name: "Autopay & Mandate Failure"
+        description: "Bank autopay, OTM, or UPI mandate bouncing, incurring bank penalty charges or missed installment."
+        keywords:
+          - "autopay"
+          - "mandate"
+          - "enach"
+          - "nach"
+          - "bounced"
+          - "bank penalty"
+          - "bounce charges"
+          - "installment skipped"
+          - "upi mandate"
+          - "auto debit"
+          - "debit failed"
+        typical_emotions: ["frustration", "anger"]
+        typical_outcomes: ["paused", "stopped"]
+
+      - id: "pause_vs_cancel_confusion"
+        name: "Pause vs. Cancel Confusion"
+        description: "Difficulty pausing an installment temporarily vs deleting the whole SIP; fear of cancellation fees."
+        keywords:
+          - "pause sip"
+          - "how to pause"
+          - "cancel sip"
+          - "skip installment"
+          - "stop vs pause"
+          - "accidental cancellation"
+          - "edit sip date"
+          - "modify sip"
+        typical_emotions: ["confusion", "anxiety"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "onboarding_kyc_friction"
+        name: "Onboarding & KYC Friction"
+        description: "Roadblocks in bank account verification, signature mismatch, OCI/NRI rejection, or video KYC failures."
+        keywords:
+          - "kyc"
+          - "onboarding"
+          - "pan"
+          - "bank verification"
+          - "oci"
+          - "nri"
+          - "passport"
+          - "signature"
+          - "ckyc"
+          - "video kyc"
+          - "power of attorney"
+          - "poa"
+          - "authorized representative"
+          - "otp"
+        typical_emotions: ["frustration", "disappointment"]
+        typical_outcomes: ["stopped", "unclear"]
+
+      - id: "step_up_and_increment_rules"
+        name: "Step-Up & Increment Rules Friction"
+        description: "Confusion or errors with yearly step-up SIPs, ₹500 vs ₹100 increment barriers, or altering SIP amounts."
+        keywords:
+          - "step up"
+          - "step-up"
+          - "increment"
+          - "multiples of"
+          - "500"
+          - "100"
+          - "increase sip"
+          - "top up"
+          - "top-up"
+          - "annual step"
+        typical_emotions: ["confusion", "frustration"]
+        typical_outcomes: ["unclear", "continued"]
+
+  - id: "income_expense_pressure"
+    name: "Income & Expense Pressure"
+    description: "Personal budget strains, sudden liquidity needs, or irregular earnings making fixed monthly SIPs difficult."
+    sub_themes:
+      - id: "income_disruption"
+        name: "Income Disruption & Job Loss"
+        description: "Loss of employment, delayed salary, or freelance income variability forcing immediate pause or stop."
+        keywords:
+          - "lost job"
+          - "job loss"
+          - "layoff"
+          - "salary delayed"
+          - "no income"
+          - "freelance"
+          - "variable income"
+          - "unemployed"
+          - "salary cut"
+        typical_emotions: ["anxiety", "fear"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "emergency_expense_spike"
+        name: "Emergency Expense Spike"
+        description: "Unexpected medical bills, family emergencies, or large lump-sum commitments diverting SIP cash."
+        keywords:
+          - "medical emergency"
+          - "hospital"
+          - "urgent money"
+          - "family emergency"
+          - "cash crunch"
+          - "unexpected expense"
+          - "emergency fund"
+        typical_emotions: ["anxiety"]
+        typical_outcomes: ["paused", "stopped", "reduced"]
+
+      - id: "sip_amount_too_high"
+        name: "SIP Amount Overcommitment"
+        description: "Initial monthly commitment set too high relative to take-home pay, resulting in end-of-month cash squeeze."
+        keywords:
+          - "too high amount"
+          - "cannot afford"
+          - "too much per month"
+          - "reduce sip"
+          - "lower installment"
+          - "budget squeeze"
+          - "tight budget"
+        typical_emotions: ["regret", "anxiety"]
+        typical_outcomes: ["reduced", "paused"]
+
+  - id: "knowledge_guidance_gap"
+    name: "Knowledge & Guidance Gap"
+    description: "Absence of clear milestone tracking, difficulty reading statements, and lack of contextual investment advice."
+    sub_themes:
+      - id: "no_progress_milestones"
+        name: "Lack of Progress Milestones"
+        description: "Monthly debits feel invisible or unrewarding; lack of visual progress toward meaningful life goals."
+        keywords:
+          - "no progress"
+          - "where is my money going"
+          - "milestone"
+          - "goal tracker"
+          - "feels like expense"
+          - "no motivation"
+          - "black hole"
+          - "progress visibility"
+        typical_emotions: ["indifference", "confusion"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "confusing_statements_and_taxes"
+        name: "Confusing Statements, NAV & Taxes"
+        description: "Struggling with capital gains reports, tax implications (LTCG/STCG), expense ratios, or CAS statements."
+        keywords:
+          - "capital gains"
+          - "statement"
+          - "expense ratio"
+          - "ltcg"
+          - "stcg"
+          - "tax"
+          - "cas"
+          - "exit load"
+          - "stamp duty"
+          - "rupees deducted"
+        typical_emotions: ["confusion"]
+        typical_outcomes: ["unclear", "continued"]
+
+      - id: "seeking_outside_validation"
+        name: "Seeking Outside Validation"
+        description: "Relying on Reddit forums, finfluencer channels, or friends for reassurance on whether to hold or stop."
+        keywords:
+          - "reddit"
+          - "finfluencer"
+          - "youtube"
+          - "friend recommended"
+          - "review my portfolio"
+          - "suggest good funds"
+          - "validation"
+          - "advice"
+        typical_emotions: ["anxiety", "confusion"]
+        typical_outcomes: ["continued", "unclear"]
+
+      - id: "fund_selection_paralysis"
+        name: "Fund Selection & Thematic Risk Paralysis"
+        description: "Overwhelmed by too many funds, thematic/sectoral risk, trending labels, or fear of wrong category choice."
+        keywords:
+          - "too many funds"
+          - "portfolio overlap"
+          - "which fund"
+          - "small cap"
+          - "thematic"
+          - "sectoral"
+          - "trending"
+          - "wrong fund"
+          - "fund selection"
+          - "active vs index"
+        typical_emotions: ["confusion", "anxiety"]
+        typical_outcomes: ["unclear", "stopped"]
+
+  - id: "emotional_disengagement"
+    name: "Emotional Disengagement & Impatience"
+    description: "Loss of momentum, buyer remorse, or chasing speculative quick gains in equities/F&O."
+    sub_themes:
+      - id: "indifference_forgotten_sip"
+        name: "Indifference & Forgotten SIP"
+        description: "Loss of interest in investing, passive neglect, or abandoning the app without conscious intent."
+        keywords:
+          - "forgot"
+          - "uninstalled"
+          - "don't care"
+          - "ignored emails"
+          - "inactive account"
+          - "abandoned"
+          - "neglect"
+        typical_emotions: ["indifference"]
+        typical_outcomes: ["stopped", "paused"]
+
+      - id: "starter_remorse"
+        name: "Starter Remorse & Lock-in Anxiety"
+        description: "Regret about locking up monthly liquidity; fear of not being able to withdraw money instantly without penalty."
+        keywords:
+          - "regret starting"
+          - "want my money back"
+          - "locked up"
+          - "cannot withdraw"
+          - "buyer remorse"
+          - "mistake to start"
+          - "lock in"
+        typical_emotions: ["regret", "fear"]
+        typical_outcomes: ["stopped"]
+
+      - id: "fomo_on_alternative_assets"
+        name: "FOMO on High-Risk Alternatives"
+        description: "Impatience with slow compounding; stopping mutual funds to chase fast gains in F&O, intraday, or crypto."
+        keywords:
+          - "crypto"
+          - "fno"
+          - "futures"
+          - "options"
+          - "intraday"
+          - "too slow"
+          - "stocks give more"
+          - "boring"
+          - "fast money"
+        typical_emotions: ["impatience", "excitement"]
+        typical_outcomes: ["stopped"]

@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+data/sip_discovery.db*
+data/chromadb/
+data/chroma/
+data/raw/
+data/processed/
+data/exports/
+.pytest_cache/
+.venv/
+venv/

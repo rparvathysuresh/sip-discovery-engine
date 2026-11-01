@@ -1,0 +1,10 @@
+You previously produced a JSON extraction that failed schema validation.
+
+Errors detected:
+{errors}
+
+Original Text:
+"{text}"
+
+Please return ONLY a valid, corrected JSON object adhering to the schema and fixing all errors mentioned above. Do not output markdown, code fences, or explanations.
+

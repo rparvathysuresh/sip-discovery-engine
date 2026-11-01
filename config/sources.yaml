@@ -1,0 +1,85 @@
+# config/sources.yaml
+# Source connector configurations for public data collection
+
+reddit:
+  client_id: ${REDDIT_CLIENT_ID:-}
+  client_secret: ${REDDIT_CLIENT_SECRET:-}
+  user_agent: ${REDDIT_USER_AGENT:-sip-discovery-engine/0.1}
+  subreddits:
+    - IndiaInvestments
+    - personalfinanceindia
+    - IndianStreetBets
+    - mutualfunds
+  search_queries:
+    - "SIP stopped"
+    - "first SIP"
+    - "SIP returns"
+    - "SIP not working"
+    - "Groww SIP"
+    - "stop SIP"
+    - "pause SIP"
+    - "SIP loss"
+  rate_limit_per_minute: 60
+  max_items_per_query: 100
+
+youtube:
+  api_key: ${YOUTUBE_API_KEY:-}
+  search_queries:
+    - "SIP returns India"
+    - "SIP not working"
+    - "first mutual fund SIP"
+    - "Groww SIP review"
+    - "why stop SIP"
+    - "mutual fund beginner mistakes"
+  max_results_per_query: 50
+  quota_limit_daily: 10000
+
+playstore:
+  app_id: "com.nextbillion.groww"
+  lang: "en"
+  country: "in"
+  filter_ratings: [1, 2, 3, 4, 5]
+  max_reviews: 2000
+
+appstore:
+  app_name: "groww-stocks-mutual-funds"
+  app_id: 1404871703
+  country: "in"
+  max_reviews: 500
+
+forum:
+  tradingqna:
+    base_url: "https://tradingqna.com"
+    search_queries:
+      - "SIP"
+      - "mutual fund retention"
+      - "SIP stop"
+  valueresearch:
+    base_url: "https://www.valueresearchonline.com"
+    search_queries:
+      - "first time SIP"
+      - "SIP returns negative"
+
+twitter:
+  bearer_token: ${TWITTER_BEARER_TOKEN:-}
+  search_queries:
+    - "Groww SIP"
+    - "stop SIP"
+    - "SIP deduction failed"
+  max_results: 100
+
+quora:
+  base_url: "https://www.quora.com"
+  search_queries:
+    - "Groww SIP review"
+    - "SIP stopped Groww"
+    - "first time mutual fund SIP India"
+    - "why stop SIP mutual fund"
+    - "is Groww safe for SIP"
+    - "Groww mandate charges"
+  max_items_per_query: 20
+  raw_dir: "quora_raw"
+  raw_file: "quora_raw/quora_raw.txt"
+
+raw_data:
+  raw_file: "raw_data/raw_data.txt"

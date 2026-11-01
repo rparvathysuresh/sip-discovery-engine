@@ -1,0 +1,2 @@
+﻿record_id,raw_id,groww_specific,lifecycle_stage,emotion,outcome,barrier_or_trigger_to_stop,confusion_or_worry_in_app,checking_behavior,outside_app_behavior,driver_to_start,expectation,behaviors_json,segment_json,evidence_span,extraction_status
+rec_001,item_a,Yes,months 2 to 3,anxiety,stopped,market drop,XIRR,daily,reddit,peer,returns,"[""stopped SIP""]",{},stopped SIP,success

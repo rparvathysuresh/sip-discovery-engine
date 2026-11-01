@@ -1,0 +1,15 @@
+1. What happens if I stop my SIP in Groww app?
+If you stop or cancel your SIP on Groww, no future installments will be deducted from your bank account. However, your existing units remain invested with the mutual fund AMC and continue to compound based on the NAV. You will not lose your invested money. If you need the money back, you must explicitly place a redemption request to sell the units and transfer funds to your verified bank account.
+
+2. Why did my bank charge a ₹590 penalty after Groww SIP auto-debit failed?
+The penalty is charged by your issuing bank (SBI, HDFC, ICICI, etc.) for NACH / e-mandate bounce due to insufficient account balance, not by Groww. Under RBI and NPCI rules, if an automated mandate fails due to lack of funds on the scheduled debit date, banks levy ECS/NACH bounce charges ranging from ₹250 to ₹590 + GST. To avoid this, either maintain sufficient balance or skip the installment in Groww at least 3-4 days before the due date.
+
+3. Is it possible to pause a SIP on Groww rather than cancelling it permanently?
+Yes, Groww provides a "Skip" option for upcoming installments. You can skip up to 2 consecutive monthly installments. However, if you skip 3 consecutive installments, the AMC will automatically terminate the SIP mandate. If you plan to take a longer break (e.g. 6 months or 1 year), it is better to cancel the SIP and start a fresh one whenever your finances recover.
+
+4. Should I stop my mutual fund SIP because my portfolio is in negative after 6 months?
+This is a very common beginner mistake. In equity mutual funds, short term volatility (first 6 to 12 months) is completely normal. Stopping your SIP when the market is down means you miss the opportunity of rupee cost averaging—accumulating more units at lower NAVs. Unless you have an immediate personal financial emergency, continuing your SIP through downturns is what generates higher long-term XIRR.
+
+5. How do I change the bank account for an active SIP in Groww?
+You cannot directly edit the bank account of an active SIP mandate in Groww. You need to first set up and verify a new bank account in the Groww app, approve a new Autopay mandate, and then either start a new SIP linked to the new bank or re-link through AMC folios via MFCentral.
+

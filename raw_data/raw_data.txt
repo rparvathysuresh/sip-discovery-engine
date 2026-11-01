@@ -1,0 +1,1371 @@
+Direct compilation of 300 unedited user reviews and community inquiries from Google Play Store, Apple App Store, X
+(Twitter), Reddit, Quora, and YouTube.
+#001
+Reddit (r/personalfinanceindia)
+"I started a ₹1,000 monthly SIP in Parag Parikh Flexi Cap 4 months ago. Due to some urgent domestic expenses, I
+wanted to stop it. If I click 'Cancel SIP' inside Groww, will my ₹4,000 come back to my bank account immediately or
+where does that money go?"
+#002
+Reddit (r/mutualfunds)
+"Can we delete the mutual fund completely from the dashboard after stopping SIP? I cancelled my active SIP last
+week because returns were flat, but the fund still shows in my dashboard holding ₹6,000. Why didn't Groww credit the
+balance into my bank account?"
+#003
+Quora
+"I only wanted to take a break from my monthly ₹2,500 contribution because my college fee was due. Instead of
+pausing, I clicked 'Redeem All' thinking it meant stopping the plan. Now all my units got sold and I got hit with 1% exit
+load!"
+#004
+Google Play Store Review
+"I sold all my units in Mirae Asset Large Cap because I needed cash. Two weeks later, another ₹3,000 got debited
+from my bank account for the same fund! Why didn't Groww stop the SIP when I emptied my entire balance? This is
+misleading."
+#005
+YouTube Comment
+"I set my SIP duration for 10 years on Groww. If I cancel it in just 6 months, will Groww or the AMC charge any fine or
+penalty on my bank account for breaking the 10-year commitment?"
+#006
+Reddit (r/mutualfunds)
+"Cancelled my Quant Active Fund SIP today. Status shows 'Cancelled'. But when will I receive my invested ₹8,000 in
+my SBI account? Do I have to wait 30 days or is there an extra button I must click?"
+#007
+Google Play Store Review
+"App makes it too complicated when you want to exit. You have to first cancel the SIP mandate, and then separately
+go to Investments, click the fund, find the three dots, and click Redeem. Why can't there be a single 'Exit Investment
+Completely' toggle?"
+#008
+Reddit (r/personalfinanceindia)
+"Total blunder. Thought stopping my SIP meant pulling out my money. I hit redeem on my 8-month equity investment
+and now realized I have to pay 20% Short Term Capital Gains tax because I held it for under a year. Groww should give
+a warning modal!"
+#009
+Quora
+"Where is the cancel button on Groww web? On mobile it is visible, but on laptop I spent 30 minutes searching under
+active orders. It makes you feel trapped into continuing the monthly debit."
+Groww SIP User Feedback (Raw Dataset)
+Page 1 of 28
+#010
+YouTube Comment
+"Cancelled my SIP 3 months ago. I noticed today that the balance amount went up by ₹400 even though I haven't
+added a single rupee. Is this interest from Groww or a bug? Can I withdraw this profit?"
+#011
+Google Play Store Review
+"Money debited Friday 8:00 AM via AutoPay. Saturday, Sunday, and Monday passed, still showing 'Order in Progress'.
+No customer care phone number, only useless automated bot that gives template answers. Where has my ₹10,000
+vanished?"
+#012
+Reddit (r/mutualfunds)
+"I scheduled my SIP on a day when Nifty dropped 2.5% specifically to grab lower NAV. Groww deducted money at 11
+AM, but allotted NAV of 3 days later after the market rebounded! How can they allocate units at an inflated NAV when
+funds were paid in time?"
+#013
+Google Play Store Review
+"The tracker is useless. It just shows 'Payment Received' and then jumps straight to 'Successful' after 4 days. Please
+show an actual step tracker like Swiggy: Paid -> Sent to Clearing House -> AMC Allocation -> Units Created. Silence
+causes heart attacks."
+#014
+Reddit (r/personalfinanceindia)
+"Started my very first SIP. ₹500 went from my bank, Groww says 'Payment Successful', but my dashboard says ₹0
+portfolio balance. I thought I got scammed. Had to frantically browse Reddit to find out it takes 3 working days."
+#015
+"Why is no folio number assigned even after 4 days of SIP payment? I want to verify on CAMS whether Groww
+actually invested my money with Nippon India or kept it with themselves."
+Quora
+#016
+Google Play Store Review
+"Bank sent SMS: 'Debited ₹3,000 to Indian Clearing Corporation Ltd (ICCL)'. But opening Groww, there is no
+notification or confirmation banner on screen for 6 hours. Bank SMS should be instantly matched by an in-app push
+confirmation."
+#017
+Reddit (r/mutualfunds)
+"My monthly CAMS statement has 142.15 units recorded, but Groww dashboard is showing 140.21 units because the
+last installment didn't refresh. Why can't Groww sync its local database in real time with the RTA?"
+#018
+YouTube Comment
+"My SIP date coincided with Diwali and weekend. The order was in pending state for almost 6 days. I raised 3 support
+tickets because I thought the money was stuck in cyberspace. They really need to put a holiday alert banner."
+#019
+Google Play Store Review
+"Groww deducted ₹2,000 twice on the 5th for the exact same SIP! One order says 'Processing', another says 'Failed'.
+My bank account was debited ₹4,000 total. The refund of the failed order took 7 working days. Very poor cash
+management."
+#020
+Reddit (r/personalfinanceindia)
+"Invested ₹1,000 at NAV of ₹64.21. Mathematically it is 15.57389 units, but Groww displayed 15.573 units. Thought
+the platform was shaving off fractions for profit until someone explained 3-decimal rounding standards."
+Groww SIP User Feedback (Raw Dataset)
+Page 2 of 28
+#021
+Reddit (r/mutualfunds)
+"I was setting up my very first ₹500 SIP. When redirected to Google Pay / PhonePe for AutoPay authorization, the
+screen yelled 'Mandate Limit: Up to ₹15,000 per month'. I was terrified that Groww would deduct ₹15k and cancelled
+the setup immediately. Why can't the limit just match ₹500?"
+#022
+Google Play Store Review
+"My salary was credited two days late so my account was short by just ₹150 on SIP date. Groww couldn't debit my
+₹1,500 SIP, but ICICI charged me ₹590 ECS bounce charge! Groww should have sent a notification 24 hours prior to
+warn me."
+#023
+Quora
+"Tried to pause my SIP 2 days before the scheduled date because I was broke. Groww blocked me with error:
+'Upcoming installments within 3 days cannot be paused or cancelled'. The money got deducted anyway and pushed
+my account into negative balance!"
+#024
+Google Play Store Review
+"My SIP was running smoothly for 8 months. Suddenly in October, no money was deducted. When I checked, the app
+quietly said 'Mandate Expired / Inactive'. No SMS, no email, no notification. I lost a whole month of investment
+compounding."
+#025
+Reddit (r/personalfinanceindia)
+"I already had an active UPI AutoPay running for Fund A. When I started a new SIP in Fund B, Groww forced me to
+authenticate a brand new ₹15,000 mandate. Now I have 4 separate mandates in my UPI app. Why can't one global
+mandate handle all mutual funds?"
+#026
+YouTube Comment
+"Tried setting up SIP mandate with State Bank net banking. The DigiLocker/eNACH page keeps spinning and throwing
+session expired errors. Had to retry 5 times before it went through. Very frustrating onboarding experience."
+#027
+Quora
+"My salary date changed from 1st to 10th. When I went to edit the SIP date on Groww, it asked me to cancel the
+existing SIP and create a completely fresh one with a new mandate! Why is something as simple as changing the
+debit date so tedious?"
+#028
+Google Play Store Review
+"I revoked the AutoPay mandate directly from my PhonePe app because I wanted to stop the SIP. Yet on SIP date,
+Groww attempted the debit, failed, and sent me a warning. If I cancel on UPI, why doesn't the app sync the
+cancellation status?"
+#029
+Reddit (r/mutualfunds)
+"Closed my old HDFC account and added Kotak on Groww. But all my running SIPs are still trying to deduct from
+HDFC! Groww support says I have to manually delete and re-register each SIP one by one to switch the bank. Total
+headache."
+#030
+YouTube Comment
+"Created SIP at night, got a notification saying 'Approve AutoPay before 10 AM tomorrow'. Missed it by 15 minutes
+and the whole SIP creation got invalidated. Why can't the authorization link remain valid for at least 48 hours?"
+Groww SIP User Feedback (Raw Dataset)
+Page 3 of 28
+#031
+Reddit (r/mutualfunds)
+"I started a Small Cap SIP of ₹5,000/month after looking at the 45% past 3-year return chart. But after 3 months, my
+total invested ₹15,000 is showing ₹14,200 (-5.3% in red). I panicked and paused all SIPs. I thought mutual funds are
+supposed to give guaranteed positive returns!"
+#032
+Reddit (r/mutualfunds)
+"When I joined Groww, I saw different categories like 'Top Small Cap', 'Best Flexi Cap', and 'High Return'. Excitedly, I
+opened ₹500 SIPs in 8 different funds. After learning about stock overlap, I realized 5 of them held identical banking
+stocks. Had to cancel 6 SIPs to streamline down to 2 funds."
+#033
+Quora
+"I lost my job last month. I wanted to pause my SIP for 6 months until I find new employment. Groww allows pausing
+for maximum 3 months or skipping single installments, but pausing for longer periods is not supported. I was forced
+to cancel completely."
+#034
+Reddit (r/personalfinanceindia)
+"Groww terminated my active SIP without asking me. When I escalated, they said: 'Because your bank auto-debit
+failed for 3 consecutive months, AMC rules mandate automatic cancellation'. Now I have to go through the KYC
+mandate hassle all over again."
+#035
+YouTube Comment
+"Market is at all-time high (Nifty 25,000). Every YouTuber is saying crash is coming. I cancelled my 4 running SIPs
+because I want to keep cash ready in savings account and will put lump sum when market drops 10%."
+#036
+Google Play Store Review
+"Kept my SIP date on 1st of the month. Company credited salary on 3rd. Result? Mandate failed and bank deducted
+fine. I paused the SIP immediately out of anger. There should be a smart feature that detects salary credits before
+triggering debits."
+#037
+Reddit (r/mutualfunds)
+"Opted for a 20% yearly Step-Up SIP when I started. After 3 years, my monthly deduction ballooned to an amount I can
+no longer afford with my current increment. Groww doesn't let you remove step-up from an active SIP, so I had to kill
+the whole SIP."
+#038
+Quora
+"My Axis Bluechip SIP has been underperforming Nifty 50 benchmark continuously for 2.5 years. Decided to stop the
+SIP and move monthly allocation to a simple low-cost Nifty 50 Index fund."
+#039
+Reddit (r/personalfinanceindia)
+"Stopped all SIPs on Groww because I am migrating my entire portfolio to Zerodha Coin to keep everything under one
+single Demat account alongside my long-term equity stocks."
+#040
+YouTube Comment
+"Skipping my November and December SIPs because of Diwali shopping and family wedding expenses. The 'Skip
+Next Installment' button is a lifesaver, but it feels guilty seeing the portfolio momentum break."
+Groww SIP User Feedback (Raw Dataset)
+Page 4 of 28
+#041
+Reddit (r/IndiaInvestments)
+"I started a 3-year ELSS SIP in Jan 2023. Now in Jan 2026, I went to redeem my entire ₹1.5 Lakhs for home
+renovation. To my absolute horror, Groww says only the Jan 2023 installment (₹5,000) is redeemable! Why was it
+never made crystal clear that every single monthly installment has its own separate 36-month lock-in period?"
+#042
+Reddit (r/personalfinanceindia)
+"Cancelled my ELSS tax saver SIP. My HR informed me that under the New Tax Regime, Section 80C deductions no
+longer apply. Continuing an ELSS with a mandatory 3-year lock-in makes zero sense when I can invest in an
+unconstrained Flexi Cap fund."
+#043
+Quora
+"Before Groww, my bank manager started regular plans where 1.5% expense ratio was eaten up. I moved to Groww
+because it offers 100% Direct Plans with zero commission. Best decision ever; saved thousands on expense ratios."
+#044
+Google Play Store Review
+"Invested ₹10,000 in SIP. The allotment statement shows investment value as ₹9,999.50. I thought Groww promised
+zero transaction charges! It turns out there is a 0.005% Government Stamp Duty. They should show this break-up
+before checkout."
+#045
+Reddit (r/mutualfunds)
+"Wanted to rebalance my portfolio by stopping my mid-cap SIP and withdrawing. Groww didn't show me how much of
+my gains are subject to the new 12.5% LTCG tax rule. An in-app capital gains tax simulator is sorely needed before
+anyone hits redeem."
+#046
+YouTube Comment
+"While creating a Step-Up SIP, the UI asks for either 'Percentage (%)' or 'Amount (₹)'. It wasn't clear if the percentage
+increases based on the base installment or compounding yearly. Ended up setting ₹500 fixed step up to be safe."
+#047
+Google Play Store Review
+"I have two different SIPs running in the same Parag Parikh Flexi Cap fund (one for my retirement, one for my child's
+education). Groww merges both into a single folio display! I cannot see goal-wise tracking. Please add portfolio
+tagging."
+#048
+Reddit (r/personalfinanceindia)
+"App froze my upcoming SIP because of missing nominee declaration. The Aadhaar e-Sign OTP repeatedly timed out
+during verification. It took 3 days and multiple emails to support to prevent my active SIP from getting frozen."
+#049
+Quora
+"Thought all mutual funds on Groww offer instant redemption like liquid funds. Stopped my equity SIP and expected
+money in bank within 30 minutes. Had to wait until T+2 days for cash credit. Product documentation must distinguish
+between liquid and equity settlement times."
+#050
+Google Play Store Review
+"Groww only allows you to pause an SIP for up to 3 installments. If you need 4 or 5 months due to personal hardship,
+the app forces you to cancel the SIP and re-register later. Why put an arbitrary cap on how long an investor can pause
+their own money?"
+Groww SIP User Feedback (Raw Dataset)
+Page 5 of 28
+#051
+Reddit (r/mutualfunds)
+"I opened Groww to start my first SIP, but the home screen threw 10 categories at me: 'High Return', 'SIP with ₹500',
+'Top Companies', 'Tax Saver'. I clicked High Return and saw 55% returns on infrastructure funds. I got totally confused
+whether to choose safe funds or high return funds and closed the app without investing."
+#052
+YouTube Comment
+"The 1-year and 3-year return toggles make it look like small cap funds will always give 35% every year. As a first-time
+investor, I thought my ₹2,000 monthly SIP was guaranteed to double in 3 years. Groww should clearly highlight rolling
+returns instead of point-to-point bull run peaks."
+#053
+Google Play Store Review
+"During my first SIP setup, a white screen opened redirecting to an external website called CAMS KRA asking for my
+mother's maiden name and PAN re-entry. It felt completely sketchy and unbranded. I aborted because I thought
+Groww got hacked."
+#054
+Reddit (r/personalfinanceindia)
+"Wanted to start an SIP with just ₹100 to test if money gets deducted properly before committing real cash. Groww
+rejected it saying minimum SIP for Parag Parikh is ₹1,000. Why does the app advertise 'Invest with ₹100' when top
+recommended funds require ₹1,000?"
+#055
+Google Play Store Review
+"Completed the 5-second video recording and submitted OTP for my SIP account. Got an SMS 12 hours later: 'KYC
+Rejected'. No reason provided on what went wrong (bad lighting? blur PAN?). Support ticket told me to wait 48 hours
+just to retry."
+#056
+Reddit (r/mutualfunds)
+"When starting SIP in Nippon Small Cap, Groww showed a prompt: 'This fund only accepts AMC SIP'. It gave a long
+warning about how pause and date changes won't work on Groww. Why can't Groww manage this behind the scenes
+instead of confusing newcomers?"
+#057
+Quora
+"During AutoPay setup, ₹1 or ₹2 was debited from my bank. Is Groww legitimate? Why are they deducting money
+before the SIP start date? I was about to file a cyber complaint until my friend told me it's penny drop verification."
+#058
+Google Play Store Review
+"I tried linking my joint savings account (held with my spouse) for an SIP mandate. The mandate repeatedly failed
+because my name was the secondary holder in bank records. Groww just gave generic 'Bank rejected' error instead of
+explaining primary account holder mismatch."
+#059
+YouTube Comment
+"What if Groww shuts down its company after I run my SIP for 15 years? Will all my accumulated SIP money
+disappear? Is my money kept inside Groww's bank account or somewhere safe? Not clearly explained to beginners
+anywhere in the app."
+#060
+Reddit (r/mutualfunds)
+"Groww had a huge banner for a new manufacturing fund NFO at ₹10 NAV. Being new, I thought ₹10 was dirt cheap
+compared to HDFC fund at ₹800 NAV, so I started a ₹5,000 SIP. Only later learned from YouTube that NAV price
+doesn't mean cheap or expensive!"
+Groww SIP User Feedback (Raw Dataset)
+Page 6 of 28
+#061
+Google Play Store Review
+"Entered my UPI PIN to approve SIP on PhonePe. The screen showed loading circle for 3 minutes and then crashed
+back to Groww home screen showing 'Payment Failed'. But my bank sent SMS that ₹3,000 was deducted! It took 4
+days for the order to update."
+#062
+Reddit (r/personalfinanceindia)
+"Woke up at 2:00 AM with 4 bank deduction SMS alerts. Groww triggers all AutoPay mandates between 1 AM and 4
+AM. When an alert hits at midnight, you panic thinking someone cloned your debit card or hacked your bank."
+#063
+Quora
+"Approved physical/e-mandate for NetBanking 7 days ago. Groww still shows 'Mandate verification in progress'. My
+SIP date is tomorrow. Will my SIP fail and bank levy bounce charges? Support has not responded to my ticket for 3
+days."
+#064
+Google Play Store Review
+"App showed SIP installment failed at 10 AM. I clicked the 'Pay Now' button to pay manually via UPI. At 1 PM, the
+automated AutoPay also triggered and deducted ₹4,000 again! Now I have two installments executed for the same
+month without wanting to."
+#065
+Reddit (r/mutualfunds)
+"My debit card expired, and my bank issued a replacement card with a new CVV and expiry date. Groww's debit card
+mandate instantly stopped working and failed 2 SIP installments. Users shouldn't have to re-register mandates when
+bank account numbers haven't changed!"
+#066
+Google Play Store Review
+"I had ₹5,000 sitting idle in Groww Balance (Groww wallet/trading balance). Yet on SIP date, Groww attempted to
+deduct money from my bank account, which had zero balance, causing a bounce charge! Why can't the app utilize
+Groww Balance for mutual fund SIPs?"
+#067
+YouTube Comment
+"PNB bank unilaterally deactivated all third-party UPI mandates during their security audit. Groww did not send any
+notification or warning until 5 days after the SIP date had already passed. Lost the SIP continuity badge and
+compounding."
+#068
+Google Play Store Review
+"Tried to modify my SIP amount on budget day. App kept crashing with 'High traffic, please try after sometime' error.
+F&O stock traders overload Groww's servers and mutual fund SIP investors suffer because both are packed into one
+overloaded app."
+#069
+Reddit (r/mutualfunds)
+"I have 3 failed/abandoned SIP mandates showing in my AutoPay list on Groww from 2 years ago. There is no delete
+button or archive button. The list looks cluttered and makes it difficult to see which mandates are actually active."
+#070
+Quora
+"I wanted to skip only this month's installment. Went to SIP settings, but the 'Skip Installment' button was missing and
+only 'Edit SIP' and 'Cancel SIP' were showing. Why do options randomly disappear on certain dates?"
+Groww SIP User Feedback (Raw Dataset)
+Page 7 of 28
+#071
+Reddit (r/mutualfunds)
+"My Groww dashboard shows Total Returns as +12%, but XIRR shows +24%. Which one is my actual profit? When I
+calculate in Excel, neither matches! Why can't Groww just explain what XIRR means right on the dashboard for
+beginners?"
+#072
+YouTube Comment
+"Every morning at 10 AM, my dashboard shows '1-Day Return: -₹1,800' in bright red because yesterday's NAV hasn't
+updated yet while the previous day's market dropped. It gives minor heart attacks every single morning. Can we
+disable 1-day returns for SIPs?"
+#073
+Reddit (r/personalfinanceindia)
+"I have an ongoing ₹2,000 monthly SIP in UTI Nifty 50. Last Diwali I added a ₹20,000 lump sum into the same fund.
+Now Groww completely blends both investments together. I can't track how much my SIP alone has generated vs my
+lump sum!"
+#074
+Google Play Store Review
+"Imported my external CAS mutual funds to track all my SIPs in one place on Groww. But external SIPs only update
+once a month when you forward an OTP/CAS statement. Why doesn't it auto-refresh like my Groww-native SIPs?"
+#075
+Reddit (r/mutualfunds)
+"Why can't I rename or tag my SIPs? I want to label one 'Emergency Fund', one 'Car 2028', and one 'Retirement'. In
+Groww, everything is just scheme names. If you have 4 funds, it's impossible to see goal progress."
+#076
+Quora
+"If I redeem 50% of my mutual fund units, Groww tells me the estimated payout, but doesn't show exactly how many
+units are still under exit load penalty or STCG tax. I had to calculate FIFO on paper. Provide a pre-redemption tax
+breakdown!"
+#077
+Reddit (r/mutualfunds)
+"Accidentally selected IDCW (Dividend Payout) option instead of Growth when setting up SIP. When the dividend was
+credited to my bank, the NAV dropped, and Groww showed my portfolio in deep red losses. Why does Groww even
+keep IDCW option for young retail SIP users?"
+#078
+Google Play Store Review
+"Needed an official stamped statement of my active SIPs for a Schengen visa application. Groww only generates a
+basic P&L summary PDF without detailed AMC folio stamp or breakdown of scheduled future debits. Visa officer
+rejected it."
+#079
+YouTube Comment
+"Groww compares my Flexi Cap fund returns against Nifty 50 instead of Nifty 500 TRI benchmark. It makes the fund
+look like it's outperforming by a huge margin when in reality it's lagging its true index. Misleading comparison
+metrics."
+#080
+Reddit (r/personalfinanceindia)
+"Every month on the day new SIP units are credited, my overall portfolio return percentage suddenly drops by 2-3%. I
+thought I made a loss, but it's just fresh money diluting the profit percentage. App should explain this temporary
+percentage dip."
+Groww SIP User Feedback (Raw Dataset)
+Page 8 of 28
+#081
+Google Play Store Review
+"My ₹5,000 SIP payment was deducted, but the order failed. I went to Help & Support. The bot gives 3 pre-written
+options: 'Track Order', 'Payment Issues', 'Refund Time'. None solve my issue. There is zero option to connect with a
+human agent. I spent 45 minutes talking to a wall."
+#082
+Reddit (r/mutualfunds)
+"Raised a ticket regarding failed AutoPay mandate. 24 hours later, Groww sent an automated email: 'Hope your issue
+is resolved! Ticket closed'. They didn't even address the issue! You have to reopen tickets 4 times just to get an actual
+human response."
+#083
+Google Play Store Review
+"Groww has over 1 crore users but doesn't have a toll-free customer care phone number where a panicked retail
+investor can call when ₹20,000 gets stuck between bank and mutual fund. Email support takes 3 days to send copy
+pasted FAQ text."
+#084
+Quora
+"Money debited from SBI for SIP, order failed on Groww. SBI says: 'Payment processed to ICCL, contact Groww'.
+Groww support says: 'Amount not received, contact your bank'. Meanwhile ₹10,000 is floating in thin air for 10 days.
+Who is accountable?"
+#085
+Reddit (r/personalfinanceindia)
+"Had a nominee mismatch issue on my Groww SIP. Groww support gave up after 1 week. I went directly to the CAMS
+online portal, logged in with PAN, and resolved the issue in 5 minutes. Groww's internal support team has zero
+technical depth."
+#086
+Google Play Store Review
+"Whenever you ask why units haven't been allotted, support sends the exact same template: 'Mutual fund orders take
+T+2 to T+4 business days.' Even when it's already T+6 days! They don't even read the complaint details."
+#087
+Reddit (r/mutualfunds)
+"Tried to find the SEBI SCORES portal escalation contact details on Groww. The escalation matrix on their app is
+buried behind 6 hidden submenus in the legal footer. Makes you feel they are actively hiding escalation avenues."
+#088
+YouTube Comment
+"During ITR filing in July, my CA found that Groww's Capital Gains report showed STCG of ₹14,000 while the actual
+AIS portal from Income Tax department showed ₹18,000 due to missed SIP redemption dates. Took weeks of
+support back-and-forth to get a corrected statement."
+#089
+Google Play Store Review
+"I stopped all my SIPs and redeemed all units. Now I want to delete my Groww account. App refuses saying: 'You have
+active SIP instructions'. But all SIPs are cancelled! Their backend doesn't release closed mandate tags for 90 days."
+#090
+Reddit (r/mutualfunds)
+"My fund was merged into another scheme by the AMC. Groww just changed the name on my dashboard without any
+explanatory banner or email detailing the change in fund mandate or expense ratio. I only found out through a news
+article."
+Groww SIP User Feedback (Raw Dataset)
+Page 9 of 28
+#091
+Reddit (r/IndiaInvestments)
+"Stopped all my Groww SIPs and migrated to Zerodha Coin. I wanted all my long-term equity stocks, Sovereign Gold
+Bonds, and mutual fund units inside one single Demat account to pledge for trading margins. Groww's SOA format
+didn't fit my strategy."
+#092
+Reddit (r/mutualfunds)
+"After using Groww for 2 years, I moved all my ongoing SIPs to MFCentral. MFCentral is created directly by CAMS and
+KFintech, so there is no broker middleman, no promotional banners, and zero tracking cookies. Just clean direct
+investing."
+#093
+Quora
+"Groww is fantastic for starting with ₹500 or ₹2,000 monthly SIPs. But once my monthly SIP commitment grew to
+₹75,000 per month, I stopped feeling comfortable routing that kind of money through a fintech app. Shifted large SIPs
+directly to AMC websites (ICICI Pru, HDFC MF)."
+#094
+Google Play Store Review
+"Groww started as a peaceful mutual fund app. Now every time I open the app to check my SIP progress, I get popups
+for 'Pre-approved Personal Loan up to ₹5 Lakh' and 'Explore F&O Intraday Options'. It's turning into a predatory
+gambling interface. Please keep MF separate!"
+#095
+Reddit (r/mutualfunds)
+"Wanted to transfer my SIPs from Groww to Kuvera without redeeming units. Discovered you can't just 'transfer' an
+SIP; you must cancel mandates on Groww, import CAS on the other app, and create brand new mandates from
+scratch. The industry portability is broken."
+#096
+YouTube Comment
+"Paused my SIP in March because of tax season cash crunch. Groww sent me 12 reminder emails and push
+notifications saying 'Your wealth building is paused! Resume now'. It started feeling like aggressive spam rather than
+helpful nudges. Uninstalled the app."
+#097
+Reddit (r/personalfinanceindia)
+"Wanted to set up a Systematic Transfer Plan (STP) to move money from a liquid fund to equity SIP gradually. Groww
+doesn't support inter-scheme STP for all AMCs smoothly. Had to manually withdraw and reinvest each month. Total
+hassle."
+#098
+Google Play Store Review
+"I got a salary hike of 15% and wanted to increase my SIP from ₹5,000 to ₹7,000. Groww doesn't let you directly
+change the amount of an active SIP; you have to create a second parallel SIP of ₹2,000 or cancel and restart. Why
+can't we simply edit the monthly amount?"
+#099
+Reddit (r/mutualfunds)
+"Saw a discussion on Reddit that the lead fund manager of my Flexi Cap fund resigned. Groww gave zero notification
+or warning about leadership change in a fund where I am putting ₹10,000 every month. App only notifies about
+payment success or failure, never fundamental fund health."
+#100
+Quora
+"Despite all the minor quirks, Groww is the only reason I saved ₹6 Lakhs in my 20s. The visual clean design, seamless
+UPI AutoPay, and compounding graph made investing an addiction rather than a chore. Never stopping my SIPs here."
+Groww SIP User Feedback (Raw Dataset)
+Page 10 of 28
+#101
+Reddit (r/mutualfunds)
+"Parked ₹3 Lakhs in ICICI Liquid Fund intending to run a weekly STP into ICICI Prudential Bluechip. Groww doesn't
+support weekly STP online for this fund. I have to manually withdraw to bank and set up an SIP. Defeats the entire
+purpose of automated STP."
+#102
+Quora
+"Started a ₹15,000 monthly SWP for my retired parents. During market drops, the fixed cash withdrawal ate into base
+principal heavily. Groww does not display any warning or simulation showing when capital will run dry at current
+withdrawal rates."
+#103
+Google Play Store Review
+"STP transfer halted abruptly with zero email alert. When I contacted support, they said the source liquid fund balance
+fell below ₹25,000 threshold. Why didn't the app notify me before the STP installment failed?"
+#104
+Reddit (r/personalfinanceindia)
+"Beginner mistake: I didn't realize every STP transfer from debt/liquid to equity counts as a taxable redemption!
+Groww never showed a tax prompt during setup. Got slapped with surprise tax liability at financial year-end."
+#105
+YouTube Comment
+"During market crashes, I wanted to pause my SWP for 2 months to let the portfolio recover. Groww only has 'Cancel
+SWP', no temporary pause button. Re-setting up SWP requires multiple confirmation steps."
+#106
+Reddit (r/mutualfunds)
+"The app doesn't let you select arbitrary dates for STP in certain smaller AMCs; you can only pick 1st, 10th, or 25th.
+Why is there a date restriction when standard SIPs allow almost any trading day?"
+#107
+Google Play Store Review
+"My SWP was scheduled for the 5th to pay rent. The money only reached my bank on the 8th evening due to
+settlement cycles. Groww should clearly state the payout buffer date so users don't miss bill due dates."
+#108
+"Had ₹4,800 left in source fund, but my monthly STP was ₹5,000. Instead of transferring the remaining ₹4,800 or
+giving an option, the system rejected the entire transaction and marked the mandate as broken."
+Quora
+#109
+Reddit (r/mutualfunds)
+"I tried to set up an STP from HDFC Liquid Fund into Nippon Small Cap. App threw an error. Why can't we do cross
+fund-house STP? Found out the hard way that STPs only work within the exact same AMC scheme family."
+#110
+Reddit (r/personalfinanceindia)
+"As an NRI, 20% TDS was sliced off on my monthly SWP payout before reaching NRE bank account. The Groww app
+did not show the TDS deduction in the transaction card, leading to massive panic until bank statement verified it."
+#111
+Google Play Store Review
+"SEBI mandated KRA re-validation. My ongoing SIPs were paused automatically because my Aadhaar name had
+initials. Groww took 3 weeks to verify my uploaded passport. Missed market opportunities and SIP streaks broken."
+Groww SIP User Feedback (Raw Dataset)
+Page 11 of 28
+#112
+Reddit (r/mutualfunds)
+"Changed my registered phone number on Groww successfully. But on my AMC folios and BSE Star MF, my old phone
+number remained active. As a result, OTPs for SIP modification were sent to my deactivated SIM. Total nightmare."
+#113
+Reddit (r/IndiaInvestments)
+"Applied to convert my physical SOA mutual fund units into Demat units on Groww. During the 15-day demat
+conversion process, all my existing SIPs were forcibly stopped and I couldn't start new ones until units cleared."
+#114
+"Had an SIP running under guardian account for my 17-year-old brother. The moment he turned 18, all SIPs were
+instantly frozen without prior notice. Transitioning to an individual adult account required postal paperwork."
+Quora
+#115
+Reddit (r/personalfinanceindia)
+"Wanted to set up an SIP under my Hindu Undivided Family (HUF) PAN. Groww app only supports retail individual
+KYC. When will fintechs cater to HUFs without making us go to offline branch offices?"
+#116
+Google Play Store Review
+"App requested address re-verification out of nowhere. Aadhaar has current rental address, while bank account has
+permanent home address. The validation bot rejected the proof twice and put my upcoming SIPs on hold."
+#117
+YouTube Comment
+"Added two nominees (mother 50%, father 50%). When reviewing the SIP summary later, it assigned 100% to one
+nominee and dropped the other. Had to redo the e-sign twice to reflect equal distribution."
+#118
+Quora
+"Updated my surname after marriage on PAN and bank account. When submitting the change on Groww, my active
+SIPs were frozen for a month because the RTA records didn't match the new PAN name immediately."
+#119
+Reddit (r/mutualfunds)
+"Linked two bank accounts on Groww. Set up AutoPay on the secondary bank, but Groww kept directing debit
+requests to the primary account! Received a bank alert for insufficient funds. App must fix account routing."
+#120
+Reddit (r/personalfinanceindia)
+"Relocated to Dubai and requested status change to NRI (NRE/NRO). Groww asked me to close all existing SIPs,
+liquidate mutual funds, and reopen an account from scratch due to compliance hurdles. Complete loss of
+compounding."
+#121
+Reddit (r/mutualfunds)
+"Started a ₹10,000 SIP in Defense and Energy sectoral funds after seeing 80% past 1-year returns on Groww. Now
+sectors are consolidating and my SIP is 8% in the red. I stopped the SIP in anger. Thematic funds shouldn't be shown
+to novices."
+#122
+YouTube Comment
+"Every time Sensex hits an all-time high, Groww sends a banner notification 'Market at Peak!'. It psychologically
+terrifies me from letting my monthly SIP run. I skipped two consecutive months because I feared buying the peak."
+Groww SIP User Feedback (Raw Dataset)
+Page 12 of 28
+#123
+Reddit (r/personalfinanceindia)
+"My friends were bragging about 35% XIRR in small caps while my conservative Large & Mid Cap SIP was showing
+16%. Felt like a loser and cancelled my 2-year ongoing SIP to switch into hyped small caps right at peak valuations."
+#124
+Quora
+"Switched from monthly ₹10,000 SIP to daily ₹500 SIP thinking it gives better compounding. My bank statement now
+has 22 debit lines every month, making account audits impossible. Groww should discourage daily SIPs; returns are
+identical."
+#125
+Reddit (r/mutualfunds)
+"Had ₹2 Lakh bonus. Couldn't decide whether to put an SIP of ₹20k for 10 months or dump lump sum. Waited 6
+months trying to catch a dip while the cash sat earning 3% in savings. An automated STP suggestion tool would have
+helped."
+#126
+Google Play Store Review
+"Every 6 months the 'Top Ranked' funds on Groww change. I kept cancelling my old SIPs and starting new ones to
+hold whatever is #1. My portfolio now has 14 dead schemes with small amounts. Clean-up is a nightmare."
+#127
+Reddit (r/personalfinanceindia)
+"The SEBI Risk-O-Meter says 'Very High Risk' on literally every equity mutual fund on Groww. Because everything is
+marked red, the indicator becomes meaningless to a newcomer. Users ignore it and jump into extreme risk schemes."
+#128
+YouTube Comment
+"When Union Budget hiked LTCG from 10% to 12.5%, I stopped all ongoing SIPs thinking equity investing was no
+longer lucrative. Only realized weeks later that equity post-tax still beats fixed deposits by a wide margin."
+#129
+Reddit (r/mutualfunds)
+"Paused my disciplined ₹3,000 monthly SIP during the bull market to gamble money in altcoins and futures. Lost 70%
+of my capital while my paused mutual fund gained 22%. Resumed SIP with deep regret."
+#130
+Quora
+"Geopolitical war news broke out and markets fell 3%. Panicked and paused my SIPs to 'protect my money'. Resumed
+only when market hit new peaks, effectively buying expensive and skipping the discount! Complete failure of SIP
+mindset."
+#131
+Reddit (r/mutualfunds)
+"My Multi Cap SIP was reclassified by the AMC as a Flexi Cap fund. Groww showed no breakdown of how this
+changes portfolio risk or market cap allocation. I had to look up SEBI circulars to understand what happened."
+#132
+Quora
+"When reviewing my contract notes, small amounts are deducted under stamp duty. While small (₹5 per lakh), Groww
+should display an itemized ledger in the payment summary before debiting bank accounts."
+#133
+Google Play Store Review
+"Nippon Small Cap stopped accepting lump sum investments. Groww also disabled SIP modifications for existing
+investors. I wanted to increase my SIP amount by ₹2,000, but app blocked it completely without clear explanation."
+Groww SIP User Feedback (Raw Dataset)
+Page 13 of 28
+#134
+Reddit (r/personalfinanceindia)
+"The Direct plan expense ratio on my fund jumped from 0.45% to 0.82% over 18 months. Groww never flagged this
+increase. An investor should be notified when an AMC silently doubles internal management costs!"
+#135
+YouTube Comment
+"L&T Mutual Fund was acquired by HSBC. One day my SIP showed HSBC instead of L&T. I was confused and thought
+my fund had been hacked or switched by Groww. A simple splash notification would have eliminated confusion."
+#136
+Reddit (r/mutualfunds)
+"I assumed exit load of 1% expires 1 year after starting the SIP. Didn't know that every single month's installment has
+its own 365-day exit load timer! Redeemed after 14 months and still paid exit loads on recent installments."
+#137
+Quora
+"A debt holding in my conservative hybrid fund defaulted and was side-pocketed. My Groww portfolio balance
+dropped overnight without any alert explaining the segregated portfolio creation. Support had no clue what I was
+talking about."
+#138
+Google Play Store Review
+"Wanted my monthly dividends reinvested automatically into units. Groww only supports IDCW Payout, not Dividend
+Reinvestment. Forces young wealth accumulators into tax-inefficient cash payouts."
+#139
+Reddit (r/mutualfunds)
+"My fund changed its benchmark from Nifty Midcap 100 to Nifty Midcap 150. Groww's historical comparison graphs
+didn't splice the change properly, making historical outperformance numbers look completely distorted."
+#140
+Reddit (r/personalfinanceindia)
+"RBI overseas investment limit got breached, so AMCs stopped US tech fund SIPs. Groww displayed 'SIP Cancelled by
+AMC'. The error made it sound like I broke a rule rather than an industry-wide regulatory limit cap."
+#141
+Google Play Store Review
+"Set up eNACH via NetBanking on Canara Bank. Bank debited ₹118 as mandate registration charges! Groww
+advertised 'Free SIP Setup'. While Groww didn't charge, they should explicitly warn users that certain PSU banks
+charge mandate registration fees!"
+#142
+Reddit (r/mutualfunds)
+"Tried to set up an SIP of ₹25,000 via UPI AutoPay. Failed repeatedly. Only found out on Reddit that UPI AutoPay
+without additional OTP had a strict ₹15,000 regulatory cap earlier. Groww didn't guide me to choose NetBanking
+instead."
+#143
+Quora
+"My Oriental Bank of Commerce account got merged into PNB. OBC IFSC codes were deactivated. Groww failed to
+auto-update IFSC codes, causing 3 months of SIP mandates to fail and AMC auto-cancelling my 4-year SIP!"
+#144
+Reddit (r/personalfinanceindia)
+"Created my SIP with debit card mandate. Now I want to shift to UPI AutoPay. Groww doesn't allow switching
+payment rails on an existing SIP; you must destroy the old SIP and create a fresh one. Why can't backend rails swap
+seamlessly?"
+Groww SIP User Feedback (Raw Dataset)
+Page 14 of 28
+#145
+Google Play Store Review
+"Cancelled my SIP 6 days prior to scheduled date. Still money was debited from my bank! Support said mandate
+cancellation takes 7-10 business days with NPCI. Why isn't mandate revocation instantaneous in the era of UPI?"
+#146
+YouTube Comment
+"Bank deducted minimum balance penalty, leaving exactly ₹480 in my account. SIP of ₹500 failed. Then bank slapped
+₹350 bounce fee. Down to negative balance. Beginners with small balances get crushed by these banking loops."
+#147
+Reddit (r/mutualfunds)
+"Sometimes Groww debits my SIP at 3:00 AM, sometimes at 4:30 PM, and sometimes the next day at noon. Because
+there is no fixed predictable hour, you can never plan exact intraday account balances. Provide a fixed debit
+schedule!"
+#148
+Google Play Store Review
+"When RBI banned PayTM Payments Bank, all my linked SIP mandates were stuck in limbo. Groww took weeks to
+provide an automated bulk-migration tool to move active mandates to my Axis bank account. Missed two monthly
+cycles."
+#149
+Quora
+"I don't carry a physical debit card and my bank doesn't support NetBanking easily. Groww does not support Aadhaar
+OTP based e-mandate registration for all banks. Had to give up on setting up SIP AutoPay entirely."
+#150
+Reddit (r/personalfinanceindia)
+"Received notification: 'Your AutoPay mandate has reached max validity and will expire'. The app gave no direct link to
+renew it. Had to wait for an SIP to fail before it triggered a renewal flow. Extremely poor UX."
+#151
+Google Play Store Review
+"The 'Skip Installment' button is buried inside 3 dots on the top corner of the individual SIP screen. Half my friends
+cancelled their SIPs because they thought you could only Cancel or Edit, completely missing the skip option!"
+#152
+Reddit (r/mutualfunds)
+"Why is the Mutual Fund tab no longer default? Every time I open Groww, it defaults to the F&O stock tab with flashing
+green and red tickers. I am a simple long-term mutual fund investor; I don't want to see intraday trading noise!"
+#153
+Quora
+"I redeemed 3 mutual funds a year ago. Their names and zero balances still linger on my dashboard forever. Groww
+provides no option to archive or hide redeemed schemes. The portfolio screen looks cluttered and messy."
+#154
+Google Play Store Review
+"While browsing a fund, my thumb brushed the large sticky 'Start SIP' button at bottom. Because my AutoPay
+mandate was pre-approved, it registered an active SIP order with almost zero confirmation friction. Add a double
+confirmation slide!"
+#155
+YouTube Comment
+"In dark mode, the historical return line chart has poor contrast. You cannot read the dates on the X-axis when
+dragging your finger across the SIP timeline. Had to switch back to blinding light mode."
+Groww SIP User Feedback (Raw Dataset)
+Page 15 of 28
+#156
+Reddit (r/personalfinanceindia)
+"The exit load terms and lock-in disclaimers are written in 7pt faint grey text at the very bottom of the fund details
+screen. You need a magnifying glass to see if a fund has 1% load for 365 days. Make crucial terms prominent!"
+#157
+Google Play Store Review
+"Tried helping my father set up an SIP on Groww. The app is 100% English. For tier-2 and tier-3 city retail investors, not
+having Hindi, Tamil, or Telugu interfaces is a huge adoption barrier. Terminology like NAV and Folio confuses them."
+#158
+Reddit (r/mutualfunds)
+"When searching for Parag Parikh, the search bar momentarily displayed the regular plan option from third-party
+tracking. Almost clicked it! Groww only sells Direct, but the search engine needs cleaner query sanitization."
+#159
+Quora
+"I run 6 SIPs. Groww lists them purely in alphabetical order. I want to sort them by debit date (e.g., 1st, 5th, 10th) so I
+know which deduction is coming up next in the calendar week. Simple sort feature is missing."
+#160
+Google Play Store Review
+"Every time Groww pushes an app update on Play Store, it wipes fingerprint login. I have to enter my 4-digit PIN and
+request OTP while standing in transit just to verify if my SIP went through. Stop clearing biometric tokens on routine
+updates."
+#161
+Reddit (r/IndiaInvestments)
+"My equity-to-debt ratio skewed to 85:15 after the bull run. I wanted an automatic rebalance feature that reallocates
+future SIP installments to debt until the ratio returns to 70:30. Groww has zero automated asset allocation logic."
+#162
+Reddit (r/personalfinanceindia)
+"Used the 'Switch' button to move from Small Cap to Large Cap within the same AMC. Only realized later that SEBI
+treats an internal switch as an immediate redemption followed by a fresh purchase! Groww didn't highlight the tax
+liability."
+#163
+YouTube Comment
+"Groww should build an internal fund overlap checker. I had to use third-party websites like TheAlfi/AdvisorKhoj to
+discover that my two large cap SIPs had 72% identical stock holdings! Why can't the app warn us before starting the
+second SIP?"
+#164
+Reddit (r/mutualfunds)
+"Every March, I want to harvest ₹1 Lakh of tax-free LTCG and reinvest immediately via SIP. Groww provides no 1-click
+tax harvesting helper. You have to redeem, wait 3 days for cash to hit bank, and reinvest, risking market moves."
+#165
+Google Play Store Review
+"When dealing with a personal financial emergency, I had to click through 7 different mutual funds individually, enter
+OTPs, and pause each SIP one by one. There must be an emergency 'Pause All SIPs for 1 Month' master toggle."
+#166
+Quora
+"Imported regular mutual funds bought through a bank distributor. Clicked 'Switch to Direct' on Groww. Didn't know
+that exit loads still applied because units were only 6 months old! Lost 1% on switching. Warn users before
+executing!"
+Groww SIP User Feedback (Raw Dataset)
+Page 16 of 28
+#167
+Reddit (r/mutualfunds)
+"Ended up with two separate folio numbers for the exact same fund because one was started via lump sum and one
+via SIP. Groww doesn't allow folio consolidation online. Had to submit a physical request letter to CAMS branch."
+#168
+Reddit (r/personalfinanceindia)
+"When Franklin merged two schemes post-crisis, my 5-year investment chart was wiped clean and reset to Day 1 on
+Groww dashboard. All historical XIRR calculations were ruined. Long-term records need persistence."
+#169
+YouTube Comment
+"Thought I was setting up a mutual fund SIP, but accidentally clicked 'Stock SIP' for an individual company share. On
+debit day, the order failed because Groww requires funds to be pre-funded in trading balance for stock SIPs!"
+#170
+Reddit (r/mutualfunds)
+"Started SIP in Parag Parikh Flexi Cap. Did not realize it holds US tech stocks like Microsoft and Alphabet. When US
+markets plunged and rupee fluctuated, the NAV swung wildly despite Indian markets being stable. Better portfolio
+transparency needed."
+#171
+Google Play Store Review
+"I only have mutual fund SIPs on Groww. Why am I getting 4 push notifications a day: 'Nifty Expiry Today! Trade
+options now', 'Markets are volatile, take a position'? It feels irresponsible to push speculative trading onto passive
+savers."
+#172
+Google Play Store Review
+"Every time I open the app to see if my monthly SIP debited, a full-screen popup appears offering a pre-approved loan
+of ₹3,00,000 with a tiny 'X' button in the top corner. It feels like navigating a spam website rather than an investment
+bank."
+#173
+Reddit (r/mutualfunds)
+"When trying to cancel an SIP, Groww showed a graphic of an old person with empty pockets and said: 'Stopping your
+SIP now will reduce your future corpus by ₹42 Lakhs! Are you sure?' That felt emotionally manipulative."
+#174
+YouTube Comment
+"Groww puts a 'High Return' badge on sectoral funds that had a 1-year freak bull run. First-time investors think it's a
+platform recommendation for safe returns. They should explicitly state these badges are algorithmic, not advice."
+#175
+Quora
+"During SIP creation, the checkbox for 'Receive updates on WhatsApp' was pre-checked. Now I get bombarded with
+promo messages on WhatsApp. Even after typing STOP, the promotional messages resume every few weeks."
+#176
+Google Play Store Review
+"Dismissed the Gold SIP and Term Insurance promo banners on my home screen. Next week, both banners
+reappeared right above my ongoing SIP portfolio card. Give users permanent UI customization toggles."
+#177
+Reddit (r/personalfinanceindia)
+"Groww added a social feed/community tab. Users were spreading panic about a particular fund house going
+bankrupt, prompting dozens of novices to cancel their active SIPs. Unregulated user forums inside a brokerage app
+are hazardous."
+Groww SIP User Feedback (Raw Dataset)
+Page 17 of 28
+#178
+Reddit (r/mutualfunds)
+"Every time an SIP order executes, the app bursts digital confetti across the screen like a casino game. For serious
+long-term investors handling family life savings, these game-like elements feel cheap and unprofessional."
+#179
+Google Play Store Review
+"App refused to let me set up my SIP until I granted continuous 'Location' and 'Camera' permissions. Why does a
+mutual fund SIP need precise GPS location every time I open the app? Very invasive privacy policies."
+#180
+Quora
+"Looked at my SIP history tab. It showed two transactions marked 'Failed' from 6 months ago that never actually
+occurred or affected my balance. Support said it was an internal payment gateway ping test. It creates unnecessary
+anxiety."
+#181
+Reddit (r/mutualfunds)
+"The graphic showing 'Invested: ₹3.6 Lakhs vs Current Value: ₹5.2 Lakhs' with the compounding green curve is pure
+dopamine. It kept me disciplined during the 2023 market dips. Seeing the visual gap widen makes continuing the SIP
+effortless."
+#182
+Quora
+"The fact that Groww doesn't charge a single paisa for mutual fund SIPs, maintenance fees, or redemptions makes it
+unmatched for beginners. I compared my portfolio with my uncle's bank-advised regular funds and I am saving 1.2%
+every year."
+#183
+YouTube Comment
+"As a college student with ₹2,000 pocket money, being able to split ₹500 into 2 index funds with 2 taps on UPI
+completely demystified the stock market for me. It removed the psychological barrier that investing is only for rich
+businessmen."
+#184
+Google Play Store Review
+"Other broker portals look like an airplane cockpit with 50 complicated acronyms. Groww lists top 10 stock holdings,
+past returns, and fund manager details in simple language. It empowers a layman to invest without hiring a financial
+advisor."
+#185
+Reddit (r/personalfinanceindia)
+"Once you set up UPI AutoPay on Google Pay, the app just works silently in the background. Every month on the 5th,
+money gets deducted smoothly, units get allotted by Thursday, and you never have to think about it. Total peace of
+mind."
+#186
+Reddit (r/mutualfunds)
+"Love how you can click the fund manager's name and see all the other schemes they manage along with their
+collective track records. Helped me make an informed choice to stick with my Flexi Cap SIP when other funds were
+struggling."
+#187
+Quora
+"Groww's integration with ClearTax made reporting capital gains and downloading Capital Gains statements for ITR-2
+seamless. One-click data sync saved me days of manual data entry during tax season."
+Groww SIP User Feedback (Raw Dataset)
+Page 18 of 28
+#188
+Google Play Store Review
+"Paused my SIP for 2 months when moving houses. When I was ready to resume, I didn't have to re-enter bank details
+or authorize mandates; just clicked 'Resume SIP' and the schedule picked up on the next cycle seamlessly."
+#189
+Reddit (r/mutualfunds)
+"The portfolio breakdown pie chart showing Equity vs Debt vs Cash, and Large vs Mid vs Small Cap across all my
+running SIPs, is very neat. It showed me my portfolio had drifted too heavy into small caps without needing complex
+spreadsheets."
+#190
+YouTube Comment
+"The 1-minute video cards explaining 'What is Rupee Cost Averaging' and 'Why market dips are good for SIP'
+prevented me from stopping my investments during the last election volatility. Keep producing clean investor
+education!"
+#191
+Reddit (r/mutualfunds)
+"Why hasn't Groww introduced Smart SIPs? When market PE is high, debit 0.5x, and when market crashes 5%,
+automatically debit 2x. Other platforms like Scripbox offer dynamic rule-based SIPs. Static monthly debits feel
+outdated."
+#192
+Reddit (r/personalfinanceindia)
+"I manage SIPs for myself, my wife, and my retired mother. Groww forces you to log out and log in across 3 different
+phone numbers. Please build a family dashboard where one master account can oversee family folios."
+#193
+Quora
+"Needed emergency cash for 20 days. Didn't want to break my 4-year SIP compounding and trigger 12.5% LTCG tax.
+Groww pushes unsecured personal loans at 16% interest instead of offering 10% Loan Against Mutual Funds! Build
+LAMF!"
+#194
+Google Play Store Review
+"Account Aggregator framework is live across India. Why does Groww still ask users to manually upload CAMS PDF
+statements with passwords to track external SIPs? Integrate RBI Account Aggregator for live multi-broker sync!"
+#195
+Reddit (r/mutualfunds)
+"I want my ₹10,000 monthly SIP split into ₹2,500 every Monday automatically. Right now I have to register 4 separate
+SIP mandates on 4 different dates. A single weekly or bi-weekly split option would eliminate so much clutter."
+#196
+YouTube Comment
+"Point-to-point trailing returns (1Y, 3Y, 5Y) are mathematically misleading for long-term SIP investors. Groww must
+provide 3-year and 5-year rolling return charts inside scheme pages so users can see consistency over cycles."
+#197
+Reddit (r/personalfinanceindia)
+"Towards March 31st, power users need a simulation tool that suggests exactly which older SIP installments to
+redeem to harvest ₹1,25,000 LTCG exemption and instantly re-invest. Automating this would save users thousands in
+taxes."
+Groww SIP User Feedback (Raw Dataset)
+Page 19 of 28
+#198
+Quora
+"Some AMCs used to bundle free group term insurance with SIPs (SIP Plus / Century SIP). Groww never clearly
+indicated which schemes offered this benefit. When AMCs discontinued it, Groww sent zero updates. Better policy
+visibility is needed."
+#199
+Reddit (r/mutualfunds)
+"Groww offers Step-Up SIP (increasing installment annually), but what about Step-Down SIP for approaching
+retirement? As investors near target goals, they need to systematically scale down equity inflows and rotate to
+safety."
+#200
+Google Play Store Review
+"Fintech is great until there is a major dispute over ₹10 Lakhs. Then an app screen feels cold and helpless. Groww
+needs physical customer experience centers or kiosks in major metro cities like Bengaluru, Mumbai, and Delhi for
+physical grievance resolution."
+#201
+Apple App Store Review
+"On iOS 18, FaceID fails 40% of the time on the SIP mandate approval screen. It redirects to a blank white screen,
+forcing me to force-quit the app. When I reopen, the SIP mandate is stuck in limbo."
+#202
+Apple App Store Review
+"Thought I could use Apple Pay or linked debit card inside Apple Wallet to run my monthly SIP. Discovered Indian
+regulations require NPCI eNACH or UPI AutoPay, which forces clunky third-party app switching."
+#203
+X / Twitter (@Groww_Care reply)
+"The iOS widget for tracking portfolio returns doesn't refresh for 3 days. It showed my SIP portfolio in red from Friday
+until Tuesday noon. What's the point of a widget if background fetch is broken?"
+#204
+Apple App Store Review
+"Setting up NetBanking SIP mandate on Safari in iOS blocks the bank OTP popup. Safari autofill conflicts with the
+bank's virtual keypad. Had to switch to a Windows PC just to register a ₹1,000 SIP."
+#205
+Apple App Store Review
+"Groww added Live Activities on iPhone. Instead of showing my SIP allotment status, it kept displaying intraday Nifty
+fluctuations on my Dynamic Island while I was at work. Turned off notifications immediately."
+#206
+Reddit (r/mutualfunds)
+"Groww on iPad is just a stretched mobile app. The SIP compounding graph stretches horizontally and cuts off
+historical NAV legends on the side. Completely unusable in landscape mode."
+#207
+Apple App Store Review
+"Changed my 4-digit security PIN for Groww, but iCloud Keychain kept overwriting it with the legacy PIN. The app
+locked my account for 24 hours due to multiple wrong attempts right on my SIP execution date!"
+#208
+X / Twitter (@Groww_Care complaint)
+"Whenever I try to download my mutual fund SIP capital gains statement on my iPhone, the PDF doesn't save to Files.
+It opens a preview and crashes. Had to log in via Chrome desktop to file my taxes."
+Groww SIP User Feedback (Raw Dataset)
+Page 20 of 28
+#209
+Apple App Store Review
+"The payment goes through, but the haptic confirmation buzzes 10 seconds later after the screen already moves. It
+makes you double-check whether the SIP got placed or if it triggered twice."
+#210
+Quora
+"Can I manage my mutual fund SIP through Apple Subscriptions in iOS Settings? I couldn't find Groww in my active
+subscriptions list. Didn't know mutual funds are not App Store subscriptions."
+#211
+X / Twitter (@Groww_Care tag)
+"@Groww @SEBI_India ₹15,000 debited twice for my flexi cap SIP during your server lag on the 1st of the month! Your
+bot says no transaction found. Give my money back immediately! Ticket #981240."
+#212
+X / Twitter
+"It has been 6 days since my ₹50,000 monthly SIP failed midway. Money is out of bank, not with AMC. Groww
+customer care doesn't have a contact number. Stop hiding behind your AI bot! #GrowwScam"
+#213
+X / Twitter
+"Discrepancy of ₹22,000 between Groww P&L and actual CAMS CAS statement for my redeemed SIP units. Income
+tax portal shows penalty notice due to Groww's faulty auto-sync. Fix your backend!"
+#214
+X / Twitter
+"Logged in on Sunday morning and my total mutual fund balance showed ₹0! No warning banner about scheduled
+maintenance. Nearly suffered a heart attack thinking all my 3-year SIP savings got wiped out."
+#215
+X / Twitter
+"Money debited before 1 PM cut-off on a market crash day. Groww allocated NAV of 2 days later when market shot
+up 2%. I lost thousands due to your processing delay. SEBI should penalize this!"
+#216
+X / Twitter
+"Cancelled my SIP 10 days ago on Groww app. Today HDFC debited ₹5,000 via mandate. Groww claims mandate
+wasn't deregistered with NPCI in time. Why is the user penalized for backend clearing delays?"
+#217
+X / Twitter
+"Started an AMC SIP in Nippon Small Cap through Groww. Now app says 'Cannot be cancelled online; contact AMC
+directly'. Why make it 1-click to start and a nightmare of paperwork to stop?"
+#218
+X / Twitter
+"Groww sent reminder: 'SIP debit today' at 8:50 AM, and money was deducted at 9:00 AM. I had no time to transfer
+funds from another account. Send reminders 24-48 hours in advance!"
+#219
+X / Twitter
+"My emergency SIP funds are locked because of sudden KYC On-Hold status. Hospital bills are pending and Groww
+support asks for 7 days to clear KRA records. Inhumane experience."
+#220
+X / Twitter
+"I only opened Groww for mutual funds. Got an email saying my Demat and Trading account has been activated with
+annual maintenance terms. I never opted for stock trading! Misleading onboarding."
+Groww SIP User Feedback (Raw Dataset)
+Page 21 of 28
+#221
+Google Play Store Review
+"SIP payment failed with error 'Bank server down'. Bank says their systems were functioning perfectly and NPCI
+payment switch was the issue. Groww should diagnose the exact failure node instead of blaming users' banks."
+#222
+Reddit (r/mutualfunds)
+"As a student investing ₹500/month, the eNACH form asked authorization for up to ₹1,00,000 maximum debit limit. I
+was terrified my entire scholarship money could be wiped out. Groww needs to educate users about NPCI mandate
+caps."
+#223
+Quora
+"Have an account with Saraswat Co-operative Bank. Groww does not support automated UPI mandates or eNACH for
+my bank. Why are cooperative banks treated like second-class citizens in fintech?"
+#224
+YouTube Comment
+"Can we set our SIP debit time to 6:00 PM instead of early morning? My salary hits my account around 3 PM on the
+1st. Because Groww attempts deduction at 4 AM, it always bounces."
+#225
+Google Play Store Review
+"Because NetBanking wasn't active on my PSU bank, Groww asked me to print a physical NACH mandate, sign it, and
+courier it to Bengaluru! What era are we living in? Cancelled the entire investment plan."
+#226
+Reddit (r/personalfinanceindia)
+"When my balance was low, Groww's payment processor retried the mandate 3 times in 48 hours. My bank charged
+₹295 for EACH attempt! A ₹1,000 SIP failure cost me nearly ₹900 in bank penalties. This is predatory!"
+#227
+Quora
+"I want Fund A's SIP deducted from HDFC and Fund B's SIP from ICICI. Groww links all active SIPs to whichever bank
+is marked 'Primary'. To split them, you have to jump through impossible hoops."
+#228
+X / Twitter
+"Submitted mandate authorization on Friday before a long weekend. By Tuesday, Groww sent an error saying
+mandate link expired due to inactivity. Why doesn't the countdown exclude national banking holidays?"
+#229
+Reddit (r/mutualfunds)
+"Had a cumulative mandate cap of ₹15,000. When my Step-Up SIP increased the total to ₹16,000, the debit failed
+without any proactive notice explaining that my cumulative cap was breached."
+#230
+Quora
+"Went to close my Axis bank account. The branch officer showed active eNACH mandates registered by Groww's
+billing entity from 2 years ago, even though all SIPs were stopped. Had to chase support for NOC letters."
+#231
+Reddit (r/mutualfunds)
+"Invested ₹10,000 every month for 6 months religiously. Portfolio shows ₹57,000 (down ₹3,000). I feel cheated.
+People said mutual funds are safer than stocks, but I am losing money every day. Stopped all SIPs today."
+Groww SIP User Feedback (Raw Dataset)
+Page 22 of 28
+#232
+YouTube Comment
+"I started a 15-year SIP for retirement, but I find myself opening Groww 10 times a day to check NAV. When it's green I
+feel happy, when it's red my workday is ruined. The app design encourages checking too often."
+#233
+Reddit (r/personalfinanceindia)
+"Had to skip my SIP this month due to car repairs. The app displayed a broken streak icon and estimated I lost ₹2
+Lakhs in future compounding. Made me feel like an absolute financial failure. Very demoralizing tone."
+#234
+Quora
+"Saw news about war escalation and Nifty dropped 800 points. Panicked and stopped my Mid Cap SIP and redeemed
+everything. A week later markets bounced back to all-time highs. Lost my units and paid STCG tax."
+#235
+Reddit (r/mutualfunds)
+"Reading comments under funds inside Groww is dangerous. People were hyping an Energy fund saying 'easy 50%
+profit incoming'. I doubled my SIP amount without understanding the sector and got caught at the peak."
+#236
+YouTube Comment
+"My SIP debited on the 10th at peak NAV. On the 14th the market crashed 3%. I felt so foolish paying full price. Wish
+Groww had an automated feature to shift my SIP date dynamically to the monthly low."
+#237
+Reddit (r/personalfinanceindia)
+"My total returns show +₹4,500, but XIRR shows -2.1%! How is that mathematically possible? It creates cognitive
+dissonance and makes me distrust Groww's reporting engine."
+#238
+Google Play Store Review
+"Groww marketed Small Cap SIPs as the ultimate wealth builder. When a correction hit, my fund dropped 14% in two
+weeks. Beginners should not be lured into small caps without severe volatility warnings."
+#239
+Reddit (r/mutualfunds)
+"I started with ₹500 in 10 different funds to 'spread risk'. Now my portfolio is a mess of 10 funds doing average
+market returns with 10 debit SMS alerts each month. Cleaning this up requires weeks of paperwork."
+#240
+Quora
+"When fund names changed after an AMC buyout, I was convinced my mutual fund units were transferred without my
+permission. The app gave no explanatory banner on the dashboard. I halted my monthly investments."
+#241
+Google Play Store Review
+"Opened app to verify SIP debit and got hit with mandatory full-screen FATCA declaration. It wouldn't let me bypass or
+view my dashboard until I answered tax residency questions. Felt very coercive."
+#242
+Reddit (r/personalfinanceindia)
+"Moved to the US on H-1B. Tried continuing my ongoing SIPs on Groww. Discovered US/Canada residents are barred
+from investing in most Indian mutual funds due to FATCA/PFIC rules. Groww support gave zero guidance on orderly
+exit."
+Groww SIP User Feedback (Raw Dataset)
+Page 23 of 28
+#243
+Quora
+"Linked my NRO account for SIP, but when attempting to redeem, the app said funds cannot be repatriated without
+15CA/15CB documentation. Why doesn't Groww explain repatriation rules before setting up NRI SIPs?"
+#244
+X / Twitter (@Groww_Care complaint)
+"Because my Aadhaar-PAN linking had a minor spelling difference, Income Tax marked my PAN inoperative. Groww
+immediately froze all ongoing SIPs without any grace period to rectify the government records."
+#245
+Google Play Store Review
+"I don't want to declare a nominee right now as I am unmarried. Groww makes you jump through 4 confirmation
+screens and type 'I DO NOT WISH TO NOMINATE' in all caps. Extremely irritating dark pattern."
+#246
+Reddit (r/IndiaInvestments)
+"Holding OCI card with foreign passport. Completed video KYC, but Groww backend rejected onboarding saying they
+only support resident Indian nationals for digital mutual funds. Wasted 2 weeks."
+#247
+YouTube Comment
+"Redeemed ₹1 Lakh from my SIP to fund a trip home. Received only ₹78,000 because AMC sliced off 20% TDS plus
+cess directly. Groww didn't display this estimated deduction on the redemption preview screen."
+#248
+"Tried setting up a high-ticket SIP of ₹1.5 Lakhs per month. Groww flagged my profile for manual In-Person
+Verification via video call. The agent never showed up at the scheduled slot. Process dragged for 10 days."
+Quora
+#249
+Google Play Store Review
+"Updated marital status and address on Aadhaar. Groww app updated profile, but AMC records still reflect old single
+status. Why can't Groww synchronize KYC modifications across all mutual fund folios automatically?"
+#250
+Reddit (r/personalfinanceindia)
+"Managing SIPs for my 75-year-old father who cannot operate smartphones. Groww has no formal Power of Attorney
+or authorized representative framework. I have to borrow his phone for OTPs every time an edit is needed."
+#251
+Reddit (r/mutualfunds)
+"Crossed ₹5 Lakhs portfolio value last month. Seeing the 'Total Gain' bar chart finally overtake my annual salary was
+the biggest psychological high of my adult life. Groww's visual interface made saving addictive."
+#252
+Google Play Store Review
+"Opted for 10% yearly Step-Up when I started with ₹2,000 in 2021. Today my SIP is ₹2,662 and I barely felt the
+difference in my monthly budget. Groww's automated step-up is the best wealth hack for salaried people."
+#253
+YouTube Comment
+"The portfolio breakdown that shows sector exposure (Banking 24%, IT 15%) helped me realize I didn't need another
+tech fund. Having that high-level asset allocation view directly on mobile is fantastic."
+#254
+Quora
+"Moved my ₹15,000 SIP from my bank relationship manager to Groww Direct Plan. That 1% expense ratio difference
+compounds to nearly ₹12 Lakhs over 15 years. Groww makes direct investing as simple as ordering food."
+Groww SIP User Feedback (Raw Dataset)
+Page 24 of 28
+#255
+Apple App Store Review
+"Started with a single ₹500 SIP in a Nifty 50 Index fund while working my first freelance gig. Groww never made me
+feel small for investing tiny amounts. Today I invest ₹20,000 every month. Truly democratized access."
+#256
+Reddit (r/personalfinanceindia)
+"Downloading my capital gains statement at financial year-end took literally 10 seconds. The PDF had clean tables
+with purchase NAV, redemption NAV, and indexed gains clearly separated. My chartered accountant was impressed."
+#257
+Google Play Store Review
+"When I had unexpected hospital bills, being able to tap 'Skip Next Installment' without paying bank fines or cancelling
+the entire SIP was a life saver. That single button prevents forced SIP closures."
+#258
+Quora
+"Track mutual funds bought through Kuvera and Zerodha right inside Groww by uploading CAS statement. Seeing my
+complete family net worth in one uncluttered visual dashboard makes Groww my primary financial app."
+#259
+YouTube Comment
+"Switched my SIP debit date from 1st to 7th to align with my new employer's salary schedule. Took 3 taps and zero
+branch visits. That agility keeps me from cancelling my plans."
+#260
+Reddit (r/mutualfunds)
+"During the recent market correction, Groww popped up a small card: 'Market corrections are normal. Your SIP bought
+4.2% more units this month.' That single sentence stopped me from panic selling. Powerful behavioral design."
+#261
+Reddit (r/mutualfunds)
+"Why does Groww put brand-new NFOs (New Fund Offers) on the top banner of the app with labels like 'Trending'?
+Beginners don't understand thematic risk and dump their first SIP into unproven sectoral themes."
+#262
+"Started an SIP in a new EV fund NFO because NAV was ₹10, thinking it would grow faster than a Bluechip fund
+whose NAV was ₹950. Only realized months later that mutual fund unit price doesn't work like cheap stocks."
+Quora
+#263
+Google Play Store Review
+"Searched for 'SBI Small Cap'. The results showed 'SBI Small Cap Fund - Direct Growth', 'SBI Small Cap Fund - Regular
+Growth', 'SBI Small Cap Fund - IDCW'. As a newcomer, the acronyms look like alien code. Simplify scheme naming!"
+#264
+Reddit (r/personalfinanceindia)
+"Other robo-advisory apps ask 5 questions about your age, income, and goals before suggesting funds. Groww lets a
+60-year-old retiree put their entire pension into a Micro Cap SIP with zero suitability warnings."
+#265
+YouTube Comment
+"A fund is rated 5-star on Groww, but when I checked Value Research it was 3-star, and Morningstar rated it 2-star.
+How does Groww calculate its stars? It makes you doubt the objectivity of the rating system."
+#266
+Reddit (r/mutualfunds)
+"Groww states the expense ratio is 0.95%, but doesn't show how that translates to actual rupees deducted from my
+₹5,000 monthly SIP over 10 years. An expense drag calculator would make costs tangible."
+Groww SIP User Feedback (Raw Dataset)
+Page 25 of 28
+#267
+Apple App Store Review
+"I wanted to compare Parag Parikh Flexi Cap, HDFC Flexi Cap, and PPFAS side-by-side on mobile. The compare tool
+only allows 2 funds at a time and hides sector allocation differences. Very restrictive comparison UX."
+#268
+Google Play Store Review
+"Even though my SIP is running smoothly, a permanent red banner says 'Profile 80% Complete - Add Secondary Bank
+& Nominee'. It creates anxiety that my investments are incomplete or in jeopardy."
+#269
+X / Twitter
+"Typed 'Index Fund' in search. Instead of low-cost UTI or Navi Nifty 50, a newly launched actively managed fund
+appeared as the top suggested result. Are search results organic or sponsored by AMCs?"
+#270
+Reddit (r/mutualfunds)
+"Wanted to increase my SIP from ₹1,000 to ₹1,250. Groww threw an error saying 'Increments must be in multiples of
+₹500'. AMC guidelines allow ₹100 multiples. Why does Groww enforce stricter rules than the fund house?"
+#271
+Reddit (r/personalfinanceindia)
+"Received a WhatsApp message from 'Groww Wealth Manager' promising guaranteed 30% monthly SIP returns on a
+special VIP fund. Groww needs to run aggressive anti-phishing campaigns; novices are falling for these impostors."
+#272
+X / Twitter
+"Got push alert: 'Login attempted from Windows Chrome in New Delhi'. I live in Chennai! Tried freezing my account
+immediately, but there is no emergency panic button to lock mutual fund SIP accounts."
+#273
+Google Play Store Review
+"Received spoofed SMS claiming my mutual fund SIP was terminated due to money laundering. The panic caused me
+to log in and mess up my mandate settings. Groww must issue verified sender headers on all official SMS."
+#274
+Reddit (r/mutualfunds)
+"Groww asks for 2FA only when logging in, not when creating or modifying an SIP mandate. If someone accesses an
+unlocked phone, they can initiate or cancel SIPs without entering a second factor OTP."
+#275
+Quora
+"Bank statement showed debits to 'INDIAN CLEARING CORP LTD' instead of 'Groww'. I thought my account was being
+siphoned by hackers and blocked my debit card, stopping all active SIPs! Groww must explain who ICCL is."
+#276
+YouTube Comment
+"Read a tweet alleging user data was leaked on a hacker forum. Panicked and cancelled all ongoing SIPs on Groww
+and moved back to traditional bank portals. Security transparency needs to be bulletproof."
+#277
+Apple App Store Review
+"SEBI mandated SIM binding. Now I cannot check my SIP portfolio on my iPad or secondary laptop without receiving
+an SMS OTP that fails if my primary phone is low on battery. Security is choking convenience."
+#278
+Google Play Store Review
+"During initial SIP payment, I was bounced across 3 different gateway URLs (Razorpay, BillDesk, ICCL). Each redirect
+flashed a warning about unverified certificates. Fix your payment routing."
+Groww SIP User Feedback (Raw Dataset)
+Page 26 of 28
+#279
+Reddit (r/personalfinanceindia)
+"Sold my old Android phone. In Groww settings, the list of 'Logged In Devices' doesn't show a clear 'Sign Out All
+Devices' button. Makes you paranoid about whether someone can see your portfolio."
+#280
+X / Twitter
+"Searched 'Groww SIP login' on Google. Top sponsored ad was a phishing clone designed to steal credentials.
+Groww's legal team should take down these trademark infringement phishing domains aggressively!"
+#281
+Reddit (r/personalfinanceindia)
+"When Budget increased LTCG exemption to ₹1.25 Lakhs, Groww's tax simulator was still computing taxes based on
+the old ₹1 Lakh limit for two months. It caused widespread confusion among people harvesting capital gains."
+#282
+"Holding units since 2017. When I redeemed a portion of my SIP, Groww's automated tax report calculated LTCG
+without properly applying the Jan 31, 2018 grandfathering price! My CA had to manually rework the figures."
+Quora
+#283
+Reddit (r/mutualfunds)
+"Invested in a conservative debt fund SIP for 3 years expecting 20% tax with indexation. When redeeming, realized
+indexation was abolished and gains are taxed at slab rates. Groww should place prominent tax alert tags on debt
+funds."
+#284
+YouTube Comment
+"Groww's Capital Gains PDF shows tax at a flat 12.5%, but forgets to add the 4% Health & Education Cess in the
+summary row. Novices assume the printed number is final and underpay advance tax."
+#285
+Reddit (r/personalfinanceindia)
+"Redeemed ₹50,000 hoping to sell units bought recently at a loss to harvest tax-loss. Discovered tax laws mandate
+First-In-First-Out (FIFO), so my oldest, most profitable units were sold, generating huge tax liability! App needs a
+warning."
+#286
+X / Twitter
+"The Annual Information Statement (AIS) on Income Tax website shows mutual fund transactions that differ by
+₹8,000 from Groww's generated statement. Who do I trust? Why can't reporting be perfectly matched?"
+#287
+Google Play Store Review
+"Finding the 80C tax deduction certificate for my ELSS SIP requires navigating 5 menus: Profile -> Reports -> Mutual
+Funds -> Tax Saving -> Select Year. Put a prominent 'Download 80C Certificate' button on the homepage in January!"
+#288
+Quora
+"If I stop an SIP running for 18 months and redeem, half the units are LTCG and half are STCG. Groww's redemption
+confirmation screen just shows a single consolidated gain figure without splitting the tax classifications."
+#289
+Reddit (r/mutualfunds)
+"If you redeem large SIP folios in September, you are liable for advance tax by Sept 15. Groww has zero advance tax
+advisory or schedule alerts. Had to pay Section 234C interest penalties because of this blindspot."
+Groww SIP User Feedback (Raw Dataset)
+Page 27 of 28
+#290
+Google Play Store Review
+"Closed my SIP and liquidated all holdings in 2024. In 2025 tax season, the app hides redeemed folios from the report
+generator. I had to lodge a support ticket and wait 5 days just to get historical statements."
+#291
+Reddit (r/mutualfunds)
+"Groww in 2019 was a masterclass in clean minimalism: just direct mutual funds and compounding graphs. Groww in
+2026 is an overcrowded bazaar of F&O trading, intraday calls, personal loans, and credit cards. It is losing its soul."
+#292
+YouTube Comment
+"Despite the glitches and marketing noise, I haven't touched my 3 SIPs for 5 years. Groww's background auto-debit
+just keeps working. It helped an undisciplined spender like me build an emergency corpus of ₹8 Lakhs."
+#293
+Reddit (r/IndiaInvestments)
+"Groww is the undisputed kindergarten of Indian investing: it teaches you how to walk. But once your portfolio
+crosses ₹25 Lakhs, you naturally graduate to Zerodha or direct AMC portals for advanced control and pledge
+margins."
+#294
+Google Play Store Review
+"You cannot manage hundreds of crores of public savings with an AI chatbot alone. Until Groww provides dedicated
+human relationship managers for portfolios above ₹5 Lakhs, it will remain a beginner app."
+#295
+Quora
+"In my small town in UP, everyone used to put money in postal schemes or chit funds. Groww made direct mutual
+fund SIPs a household conversation among my cousins. That social impact cannot be overstated."
+#296
+Reddit (r/personalfinanceindia)
+"If Groww could fix just one thing, it should be the mandate onboarding screen. That ₹15,000 NPCI mandate limit
+scares away at least 30% of first-time ₹500 investors who think they are being robbed. Better copy will solve this."
+#297
+Apple App Store Review
+"Stop putting 'Apply for Credit Line' directly between my mutual fund holding cards. The placement is deliberately
+deceptive to induce accidental clicks. Respect user attention."
+#298
+Quora
+"When my father passed away, transmitting his Groww mutual fund SIP folios to my mother was an agonizing 4
+month ordeal of physical notarized forms. Digital transmission workflows are completely broken across the entire
+fintech sector."
+#299
+YouTube Comment
+"The next big leap for Groww isn't F&O; it is building intelligent SIPs that automatically buy more when the market is
+cheap and pause when it is frothy. Automate investor discipline, not just bank debits."
+#300
+Reddit (r/mutualfunds)
+"Despite all the gripes, bugs, and bot frustration, Groww remains the easiest, most accessible vehicle for an average
+Indian citizen to participate in India's economic growth story via SIPs. Fix the edge cases, and it is unbeatable."

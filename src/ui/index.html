@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIP Investor Discovery Engine | Behavioral Research & Opportunity Scoring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/banner.css" />
+  <link rel="stylesheet" href="css/chat.css" />
+  <link rel="stylesheet" href="css/explorer.css" />
+  <link rel="stylesheet" href="css/evidence.css" />
+  <link rel="stylesheet" href="css/evidence_log.css" />
+</head>
+<body>
+
+  <!-- Top App Navigation Bar -->
+  <header class="app-header">
+    <div class="brand-section">
+      <div class="brand-logo">SIP</div>
+      <div class="brand-title">
+        Discovery Engine
+        <span class="brand-badge">Retention v1.0</span>
+      </div>
+    </div>
+
+    <!-- Main Navigation Tabs -->
+    <nav class="nav-tabs" aria-label="Main Navigation">
+      <button class="tab-btn active" data-tab="chat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        Assistant Chat
+      </button>
+      <button class="tab-btn" data-tab="explorer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"/>
+          <rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/>
+        </svg>
+        Opportunity Explorer
+      </button>
+      <button class="tab-btn" data-tab="log">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+          <polyline points="10 9 9 9 8 9"/>
+        </svg>
+        AI Evidence Log
+      </button>
+    </nav>
+
+    <div class="connection-status">
+      <span class="status-dot"></span>
+      <span>Engine Ready</span>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-container">
+
+    <!-- Persistent Data Scope Banner (Task 7.6) -->
+    <section id="data-scope-banner" class="data-scope-banner" aria-label="Corpus Scope Banner">
+      <!-- Auto-populated by js/banner.js -->
+    </section>
+
+    <!-- Tab 1: Conversational Assistant View (Task 7.3) -->
+    <section id="tab-chat" class="tab-content active">
+      <div class="chat-container">
+        <div class="chat-header">
+          <div class="chat-header-info">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+            <span>Evidence-Grounded Behavioral Query Assistant</span>
+          </div>
+          <span style="font-size: 0.72rem; color: var(--text-muted);">SEBI Guardrails & Citations Enforced</span>
+        </div>
+
+        <div id="chat-messages" class="chat-messages">
+          <!-- Welcome Screen -->
+          <div id="chat-welcome" class="chat-welcome">
+            <div class="welcome-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+            <h3>Explore Investor Behavior, Drop-offs & Opportunities</h3>
+            <p>
+              Ask any behavioral research question grounded across 1,742 filtered Indian investor conversations. 
+              The engine automatically calculates SQL aggregations, retrieves relevant evidence spans, and formats answers with citations.
+            </p>
+
+            <div class="suggestion-chips">
+              <div class="suggestion-chip" data-prompt="What confuses investors about XIRR?">
+                <span>"What confuses investors about XIRR?"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="suggestion-chip" data-prompt="Why do investors stop their SIPs in months 2-3?">
+                <span>"Why do investors stop their SIPs in months 2-3?"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="suggestion-chip" data-prompt="How do mandate failures trigger churn?">
+                <span>"How do mandate failures trigger churn?"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="suggestion-chip" data-prompt="What are the top emotional triggers before pausing?">
+                <span>"What are the top emotional triggers before pausing?"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="suggestion-chip" data-prompt="Which mutual fund should I invest in?" style="border-color: rgba(239, 68, 68, 0.3);">
+                <span style="color: #fca5a5;">🛡️ Guardrail Demo: "Which mutual fund should I invest in?"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="suggestion-chip" data-prompt="Compare Groww vs Zerodha" style="border-color: rgba(239, 68, 68, 0.3);">
+                <span style="color: #fca5a5;">🛡️ Guardrail Demo: "Compare Groww vs Zerodha"</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-bar">
+          <div class="chat-input-container">
+            <input 
+              type="text" 
+              id="chat-input" 
+              class="chat-input-field" 
+              placeholder="Ask a question about investor behaviors, drop-off triggers, or opportunity areas..." 
+              autocomplete="off"
+            />
+            <button id="chat-send-btn" class="chat-send-btn" aria-label="Send message">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 2: Opportunity Explorer View (Task 7.4) -->
+    <section id="tab-explorer" class="tab-content">
+      <div class="explorer-container">
+        
+        <!-- Filter Toolbar -->
+        <div class="explorer-toolbar">
+          <div class="toolbar-primary">
+            <div class="search-box-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input type="text" id="explorer-search-input" class="explorer-search-input" placeholder="Search opportunity themes (e.g. autopay, XIRR, panic)..." />
+            </div>
+
+            <select id="explorer-category-filter" class="filter-select" aria-label="Filter by Category">
+              <option value="">All Categories</option>
+            </select>
+
+            <button id="explorer-reset-btn" class="btn btn-secondary" style="font-size: 0.78rem; padding: 0.5rem 0.8rem;">
+              Reset Filters
+            </button>
+          </div>
+
+          <div class="toolbar-secondary">
+            <div class="evidence-filter-pills">
+              <span style="font-size: 0.75rem; color: var(--text-muted); margin-right: 0.2rem;">Evidence Level:</span>
+              <button class="pill-btn active" data-level="all">All</button>
+              <button class="pill-btn" data-level="sufficient">Sufficient</button>
+              <button class="pill-btn" data-level="directional">Directional</button>
+              <button class="pill-btn" data-level="insufficient">Insufficient</button>
+            </div>
+
+            <div class="score-slider-group">
+              <span>Min Score:</span>
+              <input type="range" id="explorer-score-slider" class="score-slider" min="0" max="1" step="0.05" value="0" />
+              <strong id="score-slider-val" style="color: #fff; font-size: 0.82rem;">0.00</strong>
+            </div>
+
+            <span id="results-count-label" class="results-count-label">Loading opportunities...</span>
+          </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div id="opportunities-grid" class="opportunities-grid">
+          <!-- Populated by js/explorer.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tab 3: AI Evidence Log View -->
+    <section id="tab-log" class="tab-content">
+      <div class="evidence-log-container">
+        <div class="log-toolbar">
+          <div class="log-filters">
+            <span style="font-size: 0.75rem; color: var(--text-muted); margin-right: 0.3rem;">Pipeline Stage:</span>
+            <button class="pill-btn active" data-stage="all">All Stages</button>
+            <button class="pill-btn" data-stage="collection">Collection</button>
+            <button class="pill-btn" data-stage="preprocessing">Preprocessing</button>
+            <button class="pill-btn" data-stage="extraction">Extraction</button>
+            <button class="pill-btn" data-stage="analysis">Analysis</button>
+            <button class="pill-btn" data-stage="synthesis">Synthesis</button>
+          </div>
+          <span id="log-count-label" class="results-count-label">Loading audit trail...</span>
+        </div>
+
+        <div id="log-timeline" class="log-timeline">
+          <!-- Populated by js/evidence_log.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Evidence Drill-Down Modal Overlay (Task 7.5) -->
+  <div id="evidence-modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-theme-title">
+    <div class="evidence-modal">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div id="modal-theme-category" class="modal-category-label">CATEGORY</div>
+          <h3 id="modal-theme-title">Theme Evidence Drill-Down</h3>
+        </div>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-toolbar">
+        <input 
+          type="text" 
+          id="modal-evidence-search" 
+          class="modal-search-input" 
+          placeholder="Filter verbatim quotes..." 
+        />
+        <span id="modal-count-info" class="modal-count-info">0 records</span>
+      </div>
+
+      <div id="modal-evidence-list" class="modal-body">
+        <!-- Populated by js/evidence.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/banner.js"></script>
+  <script src="js/evidence.js"></script>
+  <script src="js/explorer.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/evidence_log.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
