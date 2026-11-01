@@ -8,8 +8,9 @@ build/
 data/sip_discovery.db*
 data/chromadb/
 data/chroma/
-data/raw/
-data/processed/
+quora_raw/
+raw_data/
+reddit_raw/
 data/exports/
 .pytest_cache/
 .venv/
