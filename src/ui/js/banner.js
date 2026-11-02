@@ -8,7 +8,8 @@ async function loadDataScopeBanner() {
   if (!bannerContainer) return;
 
   try {
-    const res = await fetch("/api/v1/metadata");
+    const apiUrl = typeof getApiUrl === "function" ? getApiUrl("/api/v1/metadata") : "/api/v1/metadata";
+    const res = await fetch(apiUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     const data = json.data;

@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sip-discovery-engine-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python scripts/seed_db.py"
+    startCommand: "uvicorn src.api.app:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/v1/metadata
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.10
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_PATH
+        value: data/sip_discovery.db

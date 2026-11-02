@@ -1,0 +1,25 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://YOUR_RENDER_BACKEND.onrender.com/api/:path*"
+    },
+    {
+      "source": "/css/:path*",
+      "destination": "/src/ui/css/:path*"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "/src/ui/js/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "/src/ui/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/src/ui/:path*"
+    }
+  ]
+}

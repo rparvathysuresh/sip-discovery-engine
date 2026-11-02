@@ -22,7 +22,8 @@ async function loadEvidenceLog() {
   `;
 
   try {
-    const res = await fetch("/api/v1/evidence-log?limit=100");
+    const apiUrl = typeof getApiUrl === "function" ? getApiUrl("/api/v1/evidence-log?limit=100") : "/api/v1/evidence-log?limit=100";
+    const res = await fetch(apiUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     allLogEntries = json.data || [];

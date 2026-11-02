@@ -113,7 +113,8 @@ async function sendChatMessage(queryText) {
   const startTime = performance.now();
 
   try {
-    const res = await fetch("/api/v1/chat", {
+    const apiUrl = typeof getApiUrl === "function" ? getApiUrl("/api/v1/chat") : "/api/v1/chat";
+    const res = await fetch(apiUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query: query }),

@@ -24,7 +24,8 @@ async function loadOpportunities() {
   `;
 
   try {
-    const res = await fetch("/api/v1/opportunities?limit=50");
+    const apiUrl = typeof getApiUrl === "function" ? getApiUrl("/api/v1/opportunities?limit=50") : "/api/v1/opportunities?limit=50";
+    const res = await fetch(apiUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     allOpportunities = json.data || [];

@@ -32,6 +32,11 @@ async def lifespan(app: FastAPI):
     """Application lifespan: perform warm-up or vector indexing on startup."""
     logger.info("SIP Discovery Engine API starting up...")
     try:
+        from scripts.seed_db import seed_database_if_needed
+        seed_database_if_needed()
+    except Exception as e:
+        logger.warning("Database seed check skipped: %s", e)
+    try:
         from src.api.routes.chat import get_query_engine
         engine = get_query_engine()
         indexed = engine.index_evidence()

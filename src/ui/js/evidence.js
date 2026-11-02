@@ -44,7 +44,9 @@ async function openEvidenceModal(opportunityId, themeName, themeCategory) {
   document.body.style.overflow = "hidden";
 
   try {
-    const res = await fetch(`/api/v1/opportunities/${encodeURIComponent(opportunityId)}/evidence?limit=50`);
+    const endpoint = `/api/v1/opportunities/${encodeURIComponent(opportunityId)}/evidence?limit=50`;
+    const apiUrl = typeof getApiUrl === "function" ? getApiUrl(endpoint) : endpoint;
+    const res = await fetch(apiUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     currentEvidenceItems = json.data || [];
