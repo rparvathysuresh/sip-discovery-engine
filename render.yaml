@@ -14,3 +14,4 @@ services:
         sync: false
       - key: DATABASE_PATH
         value: data/sip_discovery.db
+

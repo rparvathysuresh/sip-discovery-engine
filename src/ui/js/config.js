@@ -14,3 +14,4 @@ function getApiUrl(path) {
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   return `${base}${cleanPath}`;
 }
+
