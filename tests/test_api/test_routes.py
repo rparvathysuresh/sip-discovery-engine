@@ -13,6 +13,13 @@ def client():
     return TestClient(app)
 
 
+def test_health_endpoint(client):
+    """GET /health should return 200 with status ok."""
+    res = client.get("/health")
+    assert res.status_code == 200
+    assert res.json() == {"status": "ok"}
+
+
 def test_root_health(client):
     """GET / should return 200 online."""
     res = client.get("/")

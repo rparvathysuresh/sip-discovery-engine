@@ -84,6 +84,11 @@ def create_app() -> FastAPI:
             app.mount("/js", StaticFiles(directory=str(ui_dir / "js")), name="js")
         app.mount("/ui", StaticFiles(directory=str(ui_dir), html=True), name="ui")
 
+    @app.get("/health", tags=["health"])
+    def health_check() -> dict[str, str]:
+        """Lightweight health check endpoint for uptime monitors and load balancers."""
+        return {"status": "ok"}
+
     @app.get("/", tags=["health"])
     def root(request: Request) -> Any:
         accept = request.headers.get("accept", "")
