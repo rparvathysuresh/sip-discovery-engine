@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://YOUR_RENDER_BACKEND.onrender.com/api/:path*"
+      "destination": "https://sip-discovery-engine-api.onrender.com/api/:path*"
     },
     {
       "source": "/css/:path*",
@@ -23,3 +23,4 @@
     }
   ]
 }
+

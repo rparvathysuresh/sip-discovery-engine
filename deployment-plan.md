@@ -103,8 +103,8 @@ If you prefer manual configuration via the Render Dashboard:
 
 ### Verify Backend Deployment
 Once the build completes (takes ~2 minutes):
-1. Open `https://<your-render-service>.onrender.com/docs` in your browser. You should see the interactive Swagger UI.
-2. Open `https://<your-render-service>.onrender.com/api/v1/metadata`. It should return a JSON response with:
+1. Open `https://sip-discovery-engine-api.onrender.com/docs` in your browser. You should see the interactive Swagger UI.
+2. Open `https://sip-discovery-engine-api.onrender.com/api/v1/metadata`. It should return a JSON response with:
    * `total_filtered_items: 1742`
    * `total_opportunity_areas: 8`
 
@@ -112,9 +112,9 @@ Once the build completes (takes ~2 minutes):
 
 ## Phase 2: Deploy Frontend on Vercel
 
-### Step 1: Configure Backend URL in `vercel.json`
+### Step 1: Configure Backend URL in `vercel.json` (Completed)
 
-In the repository, open `src/ui/vercel.json` and `vercel.json`. Replace `YOUR_RENDER_BACKEND` with your actual Render service hostname:
+The files `src/ui/vercel.json` and `vercel.json` are now configured with your active Render service:
 
 ```json
 {
@@ -208,3 +208,4 @@ Open your Vercel deployment URL (e.g. `https://sip-discovery-engine.vercel.app`)
 - [ ] Render URL inserted into `vercel.json` rewrites
 - [ ] Vercel project created and deployed
 - [ ] Full end-to-end user flows verified on the live Vercel URL
+
