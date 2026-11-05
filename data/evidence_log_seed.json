@@ -1,0 +1,877 @@
+[
+  {
+    "log_id": "8fce224f-a2e5-432e-9f7a-98630531a23e",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 0,
+      "total_inserted": 0,
+      "total_duplicates_skipped": 0,
+      "sources_run": [
+        "reddit"
+      ],
+      "by_source": {
+        "reddit": {
+          "collected": 0,
+          "inserted": 0,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-10-31T12:06:10.832641+00:00"
+  },
+  {
+    "log_id": "08e38c8d-0e9f-45da-bc7a-1752193b7baa",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 40,
+      "total_inserted": 40,
+      "total_duplicates_skipped": 0,
+      "sources_run": [
+        "reddit"
+      ],
+      "by_source": {
+        "reddit": {
+          "collected": 40,
+          "inserted": 40,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-10-31T12:06:34.668563+00:00"
+  },
+  {
+    "log_id": "477c205e-a27a-4920-9823-2950c777b625",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 40,
+      "total_inserted": 0,
+      "total_duplicates_skipped": 40,
+      "sources_run": [
+        "reddit"
+      ],
+      "by_source": {
+        "reddit": {
+          "collected": 40,
+          "inserted": 0,
+          "duplicates": 40,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-10-31T12:06:40.869352+00:00"
+  },
+  {
+    "log_id": "8396a625-047c-4502-830d-a561dbc0f163",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 25,
+      "total_inserted": 20,
+      "total_duplicates_skipped": 5,
+      "sources_run": [
+        "playstore",
+        "appstore",
+        "reddit",
+        "youtube",
+        "forum"
+      ],
+      "by_source": {
+        "playstore": {
+          "collected": 5,
+          "inserted": 5,
+          "duplicates": 0,
+          "error": null
+        },
+        "appstore": {
+          "collected": 5,
+          "inserted": 5,
+          "duplicates": 0,
+          "error": null
+        },
+        "reddit": {
+          "collected": 5,
+          "inserted": 0,
+          "duplicates": 5,
+          "error": null
+        },
+        "youtube": {
+          "collected": 5,
+          "inserted": 5,
+          "duplicates": 0,
+          "error": null
+        },
+        "forum": {
+          "collected": 5,
+          "inserted": 5,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-10-31T12:07:15.912664+00:00"
+  },
+  {
+    "log_id": "407d4db7-2d40-45d0-bb84-2a1348550e61",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-10-31T12:28:08.630257+00:00",
+      "total_collected": 60,
+      "duplicates_removed": 3,
+      "spam_removed": 3,
+      "pii_redacted_items": 2,
+      "pii_stats": {
+        "total_processed": 54,
+        "pan_redacted": 0,
+        "phone_redacted": 0,
+        "email_redacted": 0,
+        "account_redacted": 0,
+        "user_redacted": 2
+      },
+      "irrelevant_removed": 8,
+      "competitor_removed": 1,
+      "corpus_retained": 45,
+      "retention_rate_pct": 75.0,
+      "groww_specific_count": 34,
+      "platform_agnostic_count": 11
+    },
+    "logged_at": "2026-10-31T12:28:08.662010+00:00"
+  },
+  {
+    "log_id": "d6969c63-f4fd-4902-b2e2-a5ca3d0dab9e",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 5,
+      "total_inserted": 5,
+      "total_duplicates_skipped": 0,
+      "sources_run": [
+        "quora"
+      ],
+      "by_source": {
+        "quora": {
+          "collected": 5,
+          "inserted": 5,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-11-01T06:56:25.171796+00:00"
+  },
+  {
+    "log_id": "a381bee5-2cc7-4f9a-b592-18b093e88635",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T06:56:37.420685+00:00",
+      "total_collected": 65,
+      "duplicates_removed": 3,
+      "spam_removed": 3,
+      "pii_redacted_items": 2,
+      "pii_stats": {
+        "total_processed": 59,
+        "pan_redacted": 0,
+        "phone_redacted": 0,
+        "email_redacted": 0,
+        "account_redacted": 0,
+        "user_redacted": 2
+      },
+      "irrelevant_removed": 8,
+      "competitor_removed": 1,
+      "corpus_retained": 50,
+      "retention_rate_pct": 76.92,
+      "groww_specific_count": 38,
+      "platform_agnostic_count": 12
+    },
+    "logged_at": "2026-11-01T06:56:37.464732+00:00"
+  },
+  {
+    "log_id": "dfe552aa-47d8-421e-af39-635e6369ecea",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 2976,
+      "total_inserted": 2916,
+      "total_duplicates_skipped": 60,
+      "sources_run": [
+        "playstore",
+        "appstore",
+        "reddit",
+        "youtube",
+        "forum",
+        "quora"
+      ],
+      "by_source": {
+        "playstore": {
+          "collected": 2000,
+          "inserted": 1995,
+          "duplicates": 5,
+          "error": null
+        },
+        "appstore": {
+          "collected": 300,
+          "inserted": 295,
+          "duplicates": 5,
+          "error": null
+        },
+        "reddit": {
+          "collected": 40,
+          "inserted": 0,
+          "duplicates": 40,
+          "error": null
+        },
+        "youtube": {
+          "collected": 500,
+          "inserted": 500,
+          "duplicates": 0,
+          "error": null
+        },
+        "forum": {
+          "collected": 131,
+          "inserted": 126,
+          "duplicates": 5,
+          "error": null
+        },
+        "quora": {
+          "collected": 5,
+          "inserted": 0,
+          "duplicates": 5,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-11-01T07:11:54.611890+00:00"
+  },
+  {
+    "log_id": "23b90003-0713-4705-9e71-9b9fbe15eef4",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T07:12:08.415398+00:00",
+      "total_collected": 2981,
+      "duplicates_removed": 1082,
+      "spam_removed": 523,
+      "pii_redacted_items": 6,
+      "pii_stats": {
+        "total_processed": 1376,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 5
+      },
+      "irrelevant_removed": 1020,
+      "competitor_removed": 7,
+      "corpus_retained": 349,
+      "retention_rate_pct": 11.71,
+      "groww_specific_count": 125,
+      "platform_agnostic_count": 224
+    },
+    "logged_at": "2026-11-01T07:12:08.652102+00:00"
+  },
+  {
+    "log_id": "bb5a6ac7-86f5-4ccb-8823-f9301dfcf75f",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 0,
+      "total_inserted": 0,
+      "total_duplicates_skipped": 0,
+      "sources_run": [
+        "playstore"
+      ],
+      "by_source": {
+        "playstore": {
+          "collected": 0,
+          "inserted": 0,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-11-01T07:19:12.096982+00:00"
+  },
+  {
+    "log_id": "d1d2979d-6f75-4adf-a0a8-cbe2b3388a84",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 2000,
+      "total_inserted": 1987,
+      "total_duplicates_skipped": 13,
+      "sources_run": [
+        "playstore"
+      ],
+      "by_source": {
+        "playstore": {
+          "collected": 2000,
+          "inserted": 1987,
+          "duplicates": 13,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-11-01T07:21:21.171600+00:00"
+  },
+  {
+    "log_id": "efc4d4de-c03e-4814-9da1-6e6a55d18719",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T07:21:42.781516+00:00",
+      "total_collected": 4968,
+      "duplicates_removed": 1088,
+      "spam_removed": 539,
+      "pii_redacted_items": 9,
+      "pii_stats": {
+        "total_processed": 3341,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 8
+      },
+      "irrelevant_removed": 1072,
+      "competitor_removed": 7,
+      "corpus_retained": 2262,
+      "retention_rate_pct": 45.53,
+      "groww_specific_count": 2038,
+      "platform_agnostic_count": 224
+    },
+    "logged_at": "2026-11-01T07:21:45.331504+00:00"
+  },
+  {
+    "log_id": "665fc8b2-73e7-4168-a9d9-4edf535c6e40",
+    "pipeline_stage": "collection",
+    "event_type": "stage_completed",
+    "details": {
+      "total_collected": 300,
+      "total_inserted": 300,
+      "total_duplicates_skipped": 0,
+      "sources_run": [
+        "raw_data"
+      ],
+      "by_source": {
+        "raw_data": {
+          "collected": 300,
+          "inserted": 300,
+          "duplicates": 0,
+          "error": null
+        }
+      }
+    },
+    "logged_at": "2026-11-01T07:46:23.194570+00:00"
+  },
+  {
+    "log_id": "0a5c3a1e-db20-41c7-81cd-3128133c452c",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T07:46:39.227859+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1088,
+      "spam_removed": 539,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3641,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1081,
+      "competitor_removed": 7,
+      "corpus_retained": 2553,
+      "retention_rate_pct": 48.46,
+      "groww_specific_count": 2329,
+      "platform_agnostic_count": 224
+    },
+    "logged_at": "2026-11-01T07:46:41.210477+00:00"
+  },
+  {
+    "log_id": "1215da89-de03-4be6-aba2-06381c981e5c",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:02:02.911457+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1088,
+      "spam_removed": 655,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3525,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1762,
+      "competitor_removed": 7,
+      "corpus_retained": 1756,
+      "retention_rate_pct": 33.33,
+      "groww_specific_count": 1533,
+      "platform_agnostic_count": 223
+    },
+    "logged_at": "2026-11-01T08:02:04.155957+00:00"
+  },
+  {
+    "log_id": "6dad9410-69bb-46ea-91dd-3b762d904589",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:02:50.666212+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1088,
+      "spam_removed": 655,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3525,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1762,
+      "competitor_removed": 7,
+      "corpus_retained": 1756,
+      "retention_rate_pct": 33.33,
+      "groww_specific_count": 1533,
+      "platform_agnostic_count": 223
+    },
+    "logged_at": "2026-11-01T08:02:51.860375+00:00"
+  },
+  {
+    "log_id": "4e350b21-6f2d-48e9-829f-936ab2e34d95",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:03:38.257554+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1088,
+      "spam_removed": 781,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3399,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1663,
+      "competitor_removed": 7,
+      "corpus_retained": 1729,
+      "retention_rate_pct": 32.82,
+      "groww_specific_count": 1512,
+      "platform_agnostic_count": 217
+    },
+    "logged_at": "2026-11-01T08:03:39.421761+00:00"
+  },
+  {
+    "log_id": "048003d1-65f8-49d0-8ca7-fae0afa757c9",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:15:28.352323+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1086,
+      "spam_removed": 781,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3401,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1652,
+      "competitor_removed": 7,
+      "corpus_retained": 1742,
+      "retention_rate_pct": 33.07,
+      "groww_specific_count": 1523,
+      "platform_agnostic_count": 219
+    },
+    "logged_at": "2026-11-01T08:15:29.518611+00:00"
+  },
+  {
+    "log_id": "dbb9d0e5-96e6-4c92-8bef-47074f8573ad",
+    "pipeline_stage": "extraction",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:34:24.860791+00:00",
+      "total_items": 3,
+      "records_extracted": 3,
+      "successful_records": 0,
+      "failed_records": 3,
+      "success_rate_pct": 0.0,
+      "stats": {
+        "total_extracted": 3,
+        "success_first_attempt": 0,
+        "success_after_repair": 0,
+        "failed_validation": 3,
+        "low_confidence_count": 0,
+        "total_prompt_tokens": 0,
+        "total_completion_tokens": 0
+      },
+      "elapsed_seconds": 64.45,
+      "model_version": "llama-3.3-70b-versatile",
+      "prompt_version": "v1.0"
+    },
+    "logged_at": "2026-11-01T08:34:24.871971+00:00"
+  },
+  {
+    "log_id": "0ae06871-cb3d-4d22-bda5-319dff594aa3",
+    "pipeline_stage": "extraction",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:39:02.884829+00:00",
+      "total_items": 1,
+      "records_extracted": 1,
+      "successful_records": 1,
+      "failed_records": 0,
+      "success_rate_pct": 100.0,
+      "stats": {
+        "total_extracted": 1,
+        "success_first_attempt": 1,
+        "success_after_repair": 0,
+        "failed_validation": 0,
+        "low_confidence_count": 0,
+        "total_prompt_tokens": 1190,
+        "total_completion_tokens": 630
+      },
+      "elapsed_seconds": 2.43,
+      "model_version": "openai/gpt-oss-120b",
+      "prompt_version": "v1.0"
+    },
+    "logged_at": "2026-11-01T08:39:02.902847+00:00"
+  },
+  {
+    "log_id": "9cfa929d-b1a0-43ca-b288-e4bb56571e43",
+    "pipeline_stage": "extraction",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T08:41:03.476800+00:00",
+      "total_items": 10,
+      "records_extracted": 10,
+      "successful_records": 10,
+      "failed_records": 0,
+      "success_rate_pct": 100.0,
+      "stats": {
+        "total_extracted": 10,
+        "success_first_attempt": 7,
+        "success_after_repair": 3,
+        "failed_validation": 0,
+        "low_confidence_count": 7,
+        "total_prompt_tokens": 15637,
+        "total_completion_tokens": 10819
+      },
+      "elapsed_seconds": 98.45,
+      "model_version": "openai/gpt-oss-120b",
+      "prompt_version": "v1.0"
+    },
+    "logged_at": "2026-11-01T08:41:03.488584+00:00"
+  },
+  {
+    "log_id": "6b6ad0be-cd78-426b-87be-8674fcbcd608",
+    "pipeline_stage": "analysis",
+    "event_type": "stage_completed",
+    "details": {
+      "total_records_analyzed": 11,
+      "classified_records": 6,
+      "coverage_pct": 54.55,
+      "opportunity_areas_count": 5,
+      "top_theme": "Unrealistic Return Expectations",
+      "top_composite_score": 0.5743,
+      "elapsed_seconds": 0.06
+    },
+    "logged_at": "2026-11-01T08:51:35.423404+00:00"
+  },
+  {
+    "log_id": "da65fa96-1ff0-45a6-adb7-c4c05e869f2e",
+    "pipeline_stage": "analysis",
+    "event_type": "stage_completed",
+    "details": {
+      "total_records_analyzed": 11,
+      "classified_records": 11,
+      "coverage_pct": 100.0,
+      "opportunity_areas_count": 8,
+      "top_theme": "Onboarding & KYC Friction",
+      "top_composite_score": 0.7059,
+      "elapsed_seconds": 0.08
+    },
+    "logged_at": "2026-11-01T08:53:03.125840+00:00"
+  },
+  {
+    "log_id": "9d0d66fb-91be-4f16-bd6c-d6045c701fb8",
+    "pipeline_stage": "synthesis",
+    "event_type": "findings_generated",
+    "details": {
+      "output_path": "docs\\research-findings-summary.md",
+      "filtered_items_analyzed": 1742,
+      "structured_records_used": 11,
+      "opportunity_areas_ranked": 8
+    },
+    "logged_at": "2026-11-01T08:59:46.755718+00:00"
+  },
+  {
+    "log_id": "4861989a-3bf8-4954-861a-db7a9efd76c0",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T09:29:05.094366+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1086,
+      "spam_removed": 781,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3401,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1652,
+      "competitor_removed": 7,
+      "corpus_retained": 1742,
+      "retention_rate_pct": 33.07,
+      "groww_specific_count": 1523,
+      "platform_agnostic_count": 219
+    },
+    "logged_at": "2026-11-01T09:29:06.160017+00:00"
+  },
+  {
+    "log_id": "2ba0fcc9-4048-4c1b-944b-79785bef3e34",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T09:29:35.759106+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1086,
+      "spam_removed": 781,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3401,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1652,
+      "competitor_removed": 7,
+      "corpus_retained": 1742,
+      "retention_rate_pct": 33.07,
+      "groww_specific_count": 1523,
+      "platform_agnostic_count": 219
+    },
+    "logged_at": "2026-11-01T09:29:36.860826+00:00"
+  },
+  {
+    "log_id": "1a84d1fa-238b-44eb-a9d1-9c9194c48ab7",
+    "pipeline_stage": "analysis",
+    "event_type": "stage_completed",
+    "details": {
+      "total_records_analyzed": 11,
+      "classified_records": 11,
+      "coverage_pct": 100.0,
+      "opportunity_areas_count": 8,
+      "top_theme": "Onboarding & KYC Friction",
+      "top_composite_score": 0.7059,
+      "elapsed_seconds": 0.09
+    },
+    "logged_at": "2026-11-01T09:29:37.506589+00:00"
+  },
+  {
+    "log_id": "6b0b07dc-2574-451e-a0c5-770377d64667",
+    "pipeline_stage": "synthesis",
+    "event_type": "findings_generated",
+    "details": {
+      "output_path": "docs\\research-findings-summary.md",
+      "filtered_items_analyzed": 1742,
+      "structured_records_used": 11,
+      "opportunity_areas_ranked": 8
+    },
+    "logged_at": "2026-11-01T09:29:38.044145+00:00"
+  },
+  {
+    "log_id": "2d31ed5c-f26b-4abe-bc43-2997fca5f508",
+    "pipeline_stage": "preprocessing",
+    "event_type": "stage_completed",
+    "details": {
+      "timestamp": "2026-11-01T09:34:35.326510+00:00",
+      "total_collected": 5268,
+      "duplicates_removed": 1086,
+      "spam_removed": 781,
+      "pii_redacted_items": 10,
+      "pii_stats": {
+        "total_processed": 3401,
+        "pan_redacted": 0,
+        "phone_redacted": 1,
+        "email_redacted": 0,
+        "account_redacted": 1,
+        "user_redacted": 10
+      },
+      "irrelevant_removed": 1652,
+      "competitor_removed": 7,
+      "corpus_retained": 1742,
+      "retention_rate_pct": 33.07,
+      "groww_specific_count": 1523,
+      "platform_agnostic_count": 219
+    },
+    "logged_at": "2026-11-01T09:34:36.472365+00:00"
+  },
+  {
+    "log_id": "3cc0ffde-fcc4-40c3-8e1c-c769a2154405",
+    "pipeline_stage": "analysis",
+    "event_type": "stage_completed",
+    "details": {
+      "total_records_analyzed": 11,
+      "classified_records": 11,
+      "coverage_pct": 100.0,
+      "opportunity_areas_count": 8,
+      "top_theme": "Onboarding & KYC Friction",
+      "top_composite_score": 0.7059,
+      "elapsed_seconds": 0.09
+    },
+    "logged_at": "2026-11-01T09:34:37.086419+00:00"
+  },
+  {
+    "log_id": "ace2b244-670f-4f14-a0af-bc7dd3e62039",
+    "pipeline_stage": "synthesis",
+    "event_type": "findings_generated",
+    "details": {
+      "output_path": "docs\\research-findings-summary.md",
+      "filtered_items_analyzed": 1742,
+      "structured_records_used": 11,
+      "opportunity_areas_ranked": 8
+    },
+    "logged_at": "2026-11-01T09:34:37.569608+00:00"
+  },
+  {
+    "log_id": "0dd9a478-00dd-4a75-a11e-36af2eab9ada",
+    "pipeline_stage": "synthesis",
+    "event_type": "findings_generated",
+    "details": {
+      "output_path": "docs\\research-findings-summary.md",
+      "filtered_items_analyzed": 1742,
+      "structured_records_used": 11,
+      "opportunity_areas_ranked": 8
+    },
+    "logged_at": "2026-11-01T11:55:35.660608+00:00"
+  },
+  {
+    "log_id": "log-val-bf6d5a5f",
+    "pipeline_stage": "validation",
+    "event_type": "gold_sample_benchmarked",
+    "details": {
+      "total_items": 50,
+      "agreement": {
+        "lifecycle_stage": 1.0,
+        "behavior": 0.85,
+        "barrier_or_trigger_to_stop": 1.0,
+        "emotion": 1.0,
+        "outcome": 1.0,
+        "segment": 1.0
+      },
+      "targets": {
+        "lifecycle_stage": 0.75,
+        "behavior": 0.7,
+        "barrier_or_trigger_to_stop": 0.7,
+        "emotion": 0.65,
+        "outcome": 0.8,
+        "segment": 0.5
+      },
+      "passed_all": true
+    },
+    "logged_at": "2026-11-01T14:52:31.053597"
+  },
+  {
+    "log_id": "log-val-6f9c9ee9",
+    "pipeline_stage": "validation",
+    "event_type": "gold_sample_benchmarked",
+    "details": {
+      "total_items": 50,
+      "agreement": {
+        "lifecycle_stage": 1.0,
+        "behavior": 0.85,
+        "barrier_or_trigger_to_stop": 1.0,
+        "emotion": 1.0,
+        "outcome": 1.0,
+        "segment": 1.0
+      },
+      "targets": {
+        "lifecycle_stage": 0.75,
+        "behavior": 0.7,
+        "barrier_or_trigger_to_stop": 0.7,
+        "emotion": 0.65,
+        "outcome": 0.8,
+        "segment": 0.5
+      },
+      "passed_all": true
+    },
+    "logged_at": "2026-11-01T14:53:01.833004"
+  },
+  {
+    "log_id": "log-val-83632dc4",
+    "pipeline_stage": "validation",
+    "event_type": "gold_sample_benchmarked",
+    "details": {
+      "total_items": 50,
+      "agreement": {
+        "lifecycle_stage": 1.0,
+        "behavior": 0.85,
+        "barrier_or_trigger_to_stop": 1.0,
+        "emotion": 1.0,
+        "outcome": 1.0,
+        "segment": 1.0
+      },
+      "targets": {
+        "lifecycle_stage": 0.75,
+        "behavior": 0.7,
+        "barrier_or_trigger_to_stop": 0.7,
+        "emotion": 0.65,
+        "outcome": 0.8,
+        "segment": 0.5
+      },
+      "passed_all": true
+    },
+    "logged_at": "2026-11-01T14:59:38.445961"
+  },
+  {
+    "log_id": "log-val-0a39c091",
+    "pipeline_stage": "validation",
+    "event_type": "gold_sample_benchmarked",
+    "details": {
+      "total_items": 50,
+      "agreement": {
+        "lifecycle_stage": 1.0,
+        "behavior": 0.85,
+        "barrier_or_trigger_to_stop": 1.0,
+        "emotion": 1.0,
+        "outcome": 1.0,
+        "segment": 1.0
+      },
+      "targets": {
+        "lifecycle_stage": 0.75,
+        "behavior": 0.7,
+        "barrier_or_trigger_to_stop": 0.7,
+        "emotion": 0.65,
+        "outcome": 0.8,
+        "segment": 0.5
+      },
+      "passed_all": true
+    },
+    "logged_at": "2026-11-01T15:04:38.014001"
+  }
+]

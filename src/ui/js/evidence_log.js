@@ -76,6 +76,7 @@ function renderLogEntries(entries) {
     else if (stage.includes("prep")) stageClass = "stage-preprocessing";
     else if (stage.includes("extract")) stageClass = "stage-extraction";
     else if (stage.includes("synth")) stageClass = "stage-synthesis";
+    else if (stage.includes("val")) stageClass = "stage-validation";
 
     const eventType = entry.event_type || "pipeline_event";
     const loggedAt = entry.logged_at ? entry.logged_at.replace("T", " ").substring(0, 19) : "";

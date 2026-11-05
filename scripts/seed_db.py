@@ -28,6 +28,8 @@ logger = get_logger("seed_db")
 def seed_database(db_path: str | Path | None = None, force: bool = False) -> dict[str, int]:
     """
     Seed database from tracked JSON files in data/.
+    Populates any unseeded or empty tables (raw_items, filtered_items,
+    opportunity_areas, structured_records, evidence_log).
     """
     t0 = time.perf_counter()
     target_path = Path(db_path) if db_path else Path(get_db_path())
@@ -35,32 +37,44 @@ def seed_database(db_path: str | Path | None = None, force: bool = False) -> dic
 
     conn = init_db(str(target_path))
 
-    # Check if already populated
-    if not force:
-        try:
-            raw_count = conn.execute("SELECT count(*) FROM raw_items").fetchone()[0]
-            filt_count = conn.execute("SELECT count(*) FROM filtered_items").fetchone()[0]
-            opp_count = conn.execute("SELECT count(*) FROM opportunity_areas").fetchone()[0]
-            if raw_count > 100 and filt_count > 100 and opp_count >= 8:
-                logger.info(
-                    "Database %s already contains %d raw, %d filtered, %d opportunities. Skipping seed.",
-                    target_path, raw_count, filt_count, opp_count
-                )
-                conn.close()
-                return {"raw": raw_count, "filtered": filt_count, "opportunities": opp_count}
-        except Exception:
-            pass
-
     data_dir = PROJECT_ROOT / "data"
     raw_path = data_dir / "raw_items.json"
     filt_path = data_dir / "filtered_items.json"
     opp_path = data_dir / "opportunity_areas.json"
     seed_struct_path = data_dir / "structured_records_seed.json"
+    log_seed_path = data_dir / "evidence_log_seed.json"
 
-    counts = {"raw": 0, "filtered": 0, "opportunities": 0, "structured": 0}
+    counts = {"raw": 0, "filtered": 0, "opportunities": 0, "structured": 0, "evidence_log": 0}
+
+    # Inspect current table counts
+    existing = {"raw": 0, "filtered": 0, "opportunities": 0, "structured": 0, "evidence_log": 0}
+    try:
+        existing["raw"] = conn.execute("SELECT count(*) FROM raw_items").fetchone()[0]
+        existing["filtered"] = conn.execute("SELECT count(*) FROM filtered_items").fetchone()[0]
+        existing["opportunities"] = conn.execute("SELECT count(*) FROM opportunity_areas").fetchone()[0]
+        existing["structured"] = conn.execute("SELECT count(*) FROM structured_records").fetchone()[0]
+        existing["evidence_log"] = conn.execute("SELECT count(*) FROM evidence_log").fetchone()[0]
+    except Exception:
+        pass
+
+    # If everything is already fully seeded and not force, skip
+    if (
+        not force
+        and existing["raw"] > 100
+        and existing["filtered"] > 100
+        and existing["opportunities"] >= 8
+        and existing["structured"] >= 10
+        and existing["evidence_log"] > 0
+    ):
+        logger.info(
+            "Database %s already fully populated (raw: %d, filtered: %d, opp: %d, structured: %d, logs: %d). Skipping seed.",
+            target_path, existing["raw"], existing["filtered"], existing["opportunities"], existing["structured"], existing["evidence_log"]
+        )
+        conn.close()
+        return existing
 
     # 1. Raw items
-    if raw_path.is_file():
+    if (force or existing["raw"] < 100) and raw_path.is_file():
         raw_items = json.loads(raw_path.read_text(encoding="utf-8"))
         raw_rows = [
             (
@@ -89,7 +103,7 @@ def seed_database(db_path: str | Path | None = None, force: bool = False) -> dic
         counts["raw"] = len(raw_rows)
 
     # 2. Filtered items
-    if filt_path.is_file():
+    if (force or existing["filtered"] < 100) and filt_path.is_file():
         filt_items = json.loads(filt_path.read_text(encoding="utf-8"))
         filt_rows = [
             (
@@ -118,7 +132,7 @@ def seed_database(db_path: str | Path | None = None, force: bool = False) -> dic
         counts["filtered"] = len(filt_rows)
 
     # 3. Opportunity areas
-    if opp_path.is_file():
+    if (force or existing["opportunities"] < 8) and opp_path.is_file():
         opp_items = json.loads(opp_path.read_text(encoding="utf-8"))
         opp_rows = [
             (
@@ -153,7 +167,7 @@ def seed_database(db_path: str | Path | None = None, force: bool = False) -> dic
         counts["opportunities"] = len(opp_rows)
 
     # 4. Structured seed records
-    if seed_struct_path.is_file():
+    if (force or existing["structured"] < 10) and seed_struct_path.is_file():
         seed_records = json.loads(seed_struct_path.read_text(encoding="utf-8"))
         struct_rows = [
             (
@@ -194,13 +208,36 @@ def seed_database(db_path: str | Path | None = None, force: bool = False) -> dic
         )
         counts["structured"] = len(struct_rows)
 
+    # 5. Evidence log audit entries
+    if (force or existing["evidence_log"] == 0) and log_seed_path.is_file():
+        log_items = json.loads(log_seed_path.read_text(encoding="utf-8"))
+        log_rows = [
+            (
+                entry.get("log_id"),
+                entry.get("pipeline_stage"),
+                entry.get("event_type"),
+                json.dumps(entry.get("details", {})) if isinstance(entry.get("details"), (dict, list)) else (entry.get("details") or "{}"),
+                entry.get("logged_at", ""),
+            )
+            for entry in log_items
+        ]
+        conn.executemany(
+            """
+            INSERT OR REPLACE INTO evidence_log (
+                log_id, pipeline_stage, event_type, details, logged_at
+            ) VALUES (?, ?, ?, ?, ?)
+            """,
+            log_rows,
+        )
+        counts["evidence_log"] = len(log_rows)
+
     conn.commit()
     conn.close()
 
     elapsed = round(time.perf_counter() - t0, 3)
     logger.info(
-        "Successfully seeded database (%s) in %.3fs: %d raw, %d filtered, %d opportunities, %d structured",
-        target_path, elapsed, counts["raw"], counts["filtered"], counts["opportunities"], counts["structured"]
+        "Successfully seeded database (%s) in %.3fs: %d raw, %d filtered, %d opportunities, %d structured, %d evidence_log",
+        target_path, elapsed, counts["raw"], counts["filtered"], counts["opportunities"], counts["structured"], counts["evidence_log"]
     )
     return counts
 
